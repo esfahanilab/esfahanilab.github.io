@@ -1,31 +1,130 @@
 # ── Tools & resources ──────────────────────────────────────────────────────────
 - name: EPIC-Seq
+  status: released
   url: https://epicseq.stanford.edu/
   blurb: Infers tumor gene expression from the fragmentation patterns of cell-free DNA at gene promoters.
   paper: Inferring gene expression from cell-free DNA fragmentation profiles
   venue: Nature Biotechnology, 2022
   doi: https://doi.org/10.1038/s41587-022-01222-4
 - name: Hodgkin Lymphoma Clusterer
+  status: released
   url: https://hodgkin.stanford.edu/
   blurb: Assigns classic Hodgkin lymphoma cases to the H1 and H2 genomic subtypes from noninvasive profiling.
   paper: Distinct Hodgkin lymphoma subtypes defined by noninvasive genomic profiling
   venue: Nature, 2024
   doi: https://doi.org/10.1038/s41586-023-06903-x
 - name: DIREct
+  status: released
   url: https://direct.stanford.edu/
   blurb: Early, noninvasive identification of patients who benefit from immune checkpoint inhibition.
   paper: Noninvasive early identification of therapeutic benefit from immune checkpoint inhibition
   venue: Cell, 2020
   doi: https://doi.org/10.1016/j.cell.2020.09.001
 - name: CIRI
+  status: released
   url: https://ciri.stanford.edu/
   blurb: Continuous Individualized Risk Index — dynamic outcome prediction from serial tumor biomarkers.
   paper: Dynamic risk profiling using serial tumor biomarkers for personalized outcome prediction
   venue: Cell, 2019
   doi: https://doi.org/10.1016/j.cell.2019.06.011
 - name: CLiP
+  status: released
   url: https://clip.stanford.edu/
   blurb: Lung Cancer Likelihood in Plasma — integrates genomic features for early lung cancer detection.
   paper: Integrating genomic features for non-invasive early lung cancer detection
   venue: Nature, 2020
   doi: https://doi.org/10.1038/s41586-020-2140-0
+
+# ── In development ─────────────────────────────────────────────────────────────
+# status: development → shown in the "In development" section with the abstract.
+- name: Heme-xAI
+  status: development
+  tag: Explainable AI · Diagnosis
+  blurb: Explainable AI that classifies hematologic malignancies from targeted-sequencing genomic profiles, clonal dominance, and immune-repertoire features, with rule-based rationales for every call.
+  paper: Comprehensive classification of hematological malignancies by integrating genomic and immune repertoire profiles with explainable AI
+  authors: Ashtari A, Schroers-Martin J, Alig S, Stehr H, Shahrokh Esfahani M
+  venue: Blood 146 (Suppl. 1), ASH Annual Meeting 2025
+  url: https://www.sciencedirect.com/science/article/pii/S0006497125029702
+  doi: https://doi.org/10.1182/blood-2025-395
+  abstract:
+    - h: Background
+      p: >-
+        Accurate classification of hematologic malignancies remains challenging due to overlapping morphological, immunophenotypic, genomic, and immunological features. Shared mutational patterns among subtypes of lymphoid and myeloid malignancies further complicate accurate molecular classification. Additionally, distinguishing between clonal driver mutations, subclonal events, and clonal hematopoiesis of indeterminate potential (CHIP) complicates interpretation of genomic profiles, often requiring extensive expert input and delaying definitive diagnoses. Developing robust and interpretable machine learning (ML) frameworks capable of integrating genomic and immune repertoire features will greatly benefit efforts to accelerate and standardize diagnostics.
+    - h: Methods
+      p: >-
+        We curated a cohort of 11,090 specimens from 7,543 patients profiled using the Stanford Actionable Mutation Panel for Hematopoietic and Lymphoid Neoplasms (Heme-STAMP) between Oct. 2020 and Jun. 2025. Heme-STAMP is a targeted NGS panel curated for clinical relevance in myeloid and lymphoid malignancies and employing deep sequencing (~2000X coverage). Cases were initially annotated with 138 detailed diagnostic categories, and harmonized into 15 major malignant classes. Around 30% of cases lacked an established diagnosis at the time of testing and therefore were excluded. Samples without clinical suspicion of malignancy comprised the benign class. Genomic features used for the classifier training encompassed somatic mutations, canonical fusions/translocations, and focal copy number alterations (CNAs). To prioritize truncal mutations, we introduced an allele frequency-rank feature, capturing clonal dominance within each sample. TCR and IG sequencing data from 1,001 samples were used to derive immune repertoire features. Finally, we developed a comprehensive suite of ML models as well as advanced neural networks, coupled with an explainable AI framework that generates transparent, rule-based rationales alongside predictions, and called this framework Heme-xAIGen.
+    - h: Results
+      p: >-
+        After excluding samples labeled as unknown malignancy, the training (80%) and validation (20%) cohorts comprised diverse malignancies, including AML (15.6%), MPN (15.5%), PCNs (11.3%), CLL/SLL (8.6%), MDS (8.9%), DLBCL (3.9%), and FL (2.8%). Benign cases accounted for ~13% of the dataset. TET2 (29.6%), ASXL1 (26.7%), and DNMT3A (20.5%) were the most frequently mutated genes in myeloid neoplasms; in mature lymphoid neoplasms we observed high frequencies of TP53 (17%), CREBBP (12.7%), MYD88 (10.9%), and BCL2 (5.2%). Benign samples showed a significant correlation between patient age and CHIP-associated mutation burden (R = 0.42, P < 0.05), and TCL cases exhibited a significantly higher frequency of positive TCR clonality than mature B-cell neoplasms (80.5% vs. 16.5%; P < 0.001). The ML pipeline accurately classified hematological malignancies, with the best-performing model achieving an overall AUC of 0.89 (AML 0.80; MPN 0.91; CLL/SLL 0.89; DLBCL 0.78). All feature types contributed, with mutations and CNAs having the greatest impact. Heme-xAIGen slightly improved discrimination (AUC = 0.90) while generating biologically coherent rules, for example a CCND1::IGH fusion with absence of FLT3 and NPM1 mutations for MCL. Longitudinal application in patients with antecedent myeloid conditions assigned higher AML risk scores to patients who subsequently progressed to AML (P < 0.05).
+    - h: Conclusions
+      p: >-
+        We introduce Heme-xAIGen, an explainable AI framework that accurately classifies hematologic malignancies by integrating genomic profiles, clonal dominance through VAF ranking, and immune repertoire data. Our approach demonstrates substantial predictive accuracy and delivers transparent diagnostic rationales. By distinguishing complex lymphoid and myeloid malignancies and identifying disease progression, the model addresses critical diagnostic gaps, supports clinical decision-making, and facilitates patient monitoring.
+
+- name: VERACITY
+  status: development
+  tag: Telomeres · cfDNA
+  blurb: Machine-learning estimation of telomere length from short-read whole-genome sequencing, down to low-pass plasma cfDNA, with a Telomere Ambiguity Index that captures heterogeneity in telomere maintenance.
+  paper: A pan-cancer atlas of telomere length in tissues and plasma cell-free DNA
+  authors: Shi J, Espinoza L, Zhang M, Shahrokh Esfahani M
+  venue: Cancer Research 86 (7 Suppl.), AACR Annual Meeting 2026, Abstract 6892
+  url: https://aacrjournals.org/cancerres/article/86/7_Supplement/6892/778676
+  doi: https://doi.org/10.1158/1538-7445.AM2026-6892
+  abstract:
+    - h: Background
+      p: >-
+        Telomeres shorten with age because of incomplete replication and limited telomerase activity, and their dysfunction promotes genomic instability in cancer. Existing estimators rely on strict repeat counts and often miss error-affected or biologically shortened fragments. This is problematic in plasma cfDNA where most fragments are ∼170 bp and ctDNA is even shorter. Nanopore-based assays provide precise measurement, but an accurate, error-tolerant short-read approach remains unmet.
+    - h: Methods
+      p: >-
+        We developed VERACITY, a machine-learning method that estimates telomere length (TL) from short-read WGS by modeling telomeric-repeat patterns and sequencing-error profiles. VERACITY also computes a Telomere Ambiguity Index (TAI) that quantifies heterogeneity in telomere maintenance. We applied VERACITY to 10,363 TCGA WGS samples (4,847 tumors; 5,089 matched normals; ages 14–85) across 27 cancer types, 3 deep (∼200×) cfDNA genomes with systematic down-sampling, and 462 low-pass (2–3×) cfDNA genomes from the DELFI cohort (233 cancers; 229 healthy), generating an atlas of telomere biology in tissues and plasma.
+    - h: Results
+      p: >-
+        Down-sampling showed reliable TL estimation down to ∼2.5× coverage, supporting low-pass cfDNA application. Tissue and cfDNA trends were highly concordant. Across cancers, TL declined with age in tumors and matched normals, with tumors showing far steeper erosion. Male tumors showed greater loss than female tumors. Age-associated trajectories varied widely: GBM, TGCT, and STAD showed steep nonlinear declines, whereas CESC, KICH, and LGG showed minimal or positive slopes. Although stomach tissues show the weakest TL–age correlation, gastric cancers exhibited one of the strongest declines in both tissue and cfDNA. Several cancers, including PRAD and TGCT, displayed elevated TAI, suggesting diverse or unstable maintenance strategies.
+    - h: Conclusions
+      p: >-
+        VERACITY provides an accurate and scalable framework for TL estimation from standard and low-pass sequencing, enabling the most comprehensive atlas to date of telomere dynamics across cancers in tissues and plasma. The analysis reveals accelerated, sex-stratified, and cancer-type-specific telomere erosion, substantial inter-tumor heterogeneity, and distinct maintenance mechanisms. cfDNA TL patterns closely mirror tissue-derived trends and highlight the potential of telomere metrics as minimally invasive biomarkers of telomere dysfunction, tumor biology, and treatment-relevant telomere states.
+
+- name: MARS / SegMO
+  status: development
+  tag: Spatial proteomics · Segmentation
+  blurb: An unsupervised, annotation-free framework for single-cell segmentation and morphological profiling in multiplex tissue imaging, producing soft whole-cell masks that respect the crowded, overlapping cells of lymphoid tissue.
+  paper: Distinct morphological features of malignant cells in large B-cell lymphoma identified by soft-segmentation in imaging-based spatial proteomics
+  authors: Shi J, Noordenbos T, IJsselsteijn M, De Miranda N, Vermaat J, Shahrokh Esfahani M
+  venue: Blood 146 (Suppl. 1), ASH Annual Meeting 2025
+  url: https://www.sciencedirect.com/science/article/pii/S0006497125070892
+  doi: https://doi.org/10.1182/blood-2025-4342
+  abstract:
+    - h: Background
+      p: >-
+        Mature B-cell neoplasms display densely packed and morphologically heterogeneous cells, often complicating tissue-level analysis. Spatial profiling platforms such as imaging mass cytometry (IMC) enable single-cell, in situ analysis using multiplexed antibody panels, but accurate and interpretable segmentation remains a challenge in lymphoid tissues where cells frequently overlap, deform, and exhibit non-canonical marker profiles. Common tools, including DeepCell Mesmer and Cellpose, assume round, non-overlapping cells with clear boundaries, a simplification that often fails in DLBCL, FL, and cHL. These limitations can yield biologically misleading segmentations and restrict precise characterization of the tumor microenvironment (TME).
+    - h: Methods
+      p: >-
+        We developed SegMO (Segmentation and Morphological feature Optimization), an unsupervised, annotation-free segmentation framework compatible with multiple spatial proteomics platforms. SegMO integrates nucleus-anchored seeding, probabilistic modeling of marker expression, cluster-guided refinement, and a reinforcement learning (RL) module to produce biologically realistic, soft whole-cell masks that allow partial overlaps and irregular shapes. Protein expression is modeled with flexible statistical distributions to accommodate partial or co-expressed markers, and cells are clustered by expression features before iterative mask refinement to improve marker purity and spatial coherence. The RL model optimizes boundaries through pixel-level adjustments to maximize cell fidelity, recover low-signal regions, and capture realistic morphology.
+    - h: Results
+      p: >-
+        We applied SegMO to 24 IMC samples (tonsil, spleen, brain, and lymphoma) stained with 43 protein markers, from a larger cohort of 76 individuals (DLBCL, FL, cHL, and healthy donors). SegMO segmented ~74,000 cells and grouped them into biologically distinct clusters. Compared to Mesmer, SegMO improved nuclear signal integrity (0.92 vs. 0.90), detected fewer weak-signal nuclei (<0.1% vs. 2.5%), and generated more accurate boundaries in high-density and overlapping regions. Soft segmentation preserved subtle morphological features such as protrusions, compression, elongation, and partial overlaps that rigid models did not capture. Morphological profiling showed that the cluster enriched in tumor tissues, likely neoplastic B cells, had among the largest cell sizes and highest nuclear ratios, and a CD4⁺CD7⁺ lymphocyte cluster enriched in the GCB subtype showed irregular shapes reflecting activation, mobility, and spatial pressure in the TME. SegMO also uncovered architectural features including immune–tumor colocalization, irregular clustering, and localized crowding in aggressive lymphomas.
+    - h: Conclusions
+      p: >-
+        SegMO is a robust, versatile, annotation-free AI framework for single-cell segmentation in multiplex tissue imaging of hematologic samples. By integrating probabilistic modeling, cluster-guided refinement, and reinforcement learning, SegMO produces biologically realistic boundaries in complex TMEs, enhancing both morphological fidelity and marker signal accuracy, and enabling precise characterization of tumor-associated features, immune interactions, and proliferative states in lymphomas and other hematologic malignancies.
+
+- name: DECAF
+  status: development
+  tag: Mechanistic modeling · cfDNA
+  blurb: A mechanistic, generative model of cell-free DNA fragmentation that simulates nucleosome positioning and nuclease cutting, now informed by cell-type-specific nucleosome patterns to move toward tissue-of-origin deconvolution.
+  paper: Using cell-type-specific nucleosome patterns to improve cell-free DNA fragmentation models in lung cancer
+  authors: Liu BS, Zhang M, Shahrokh Esfahani M
+  venue: Cancer Research 86 (7 Suppl.), AACR Annual Meeting 2026, Abstract 6845
+  url: https://aacrjournals.org/cancerres/article/86/7_Supplement/6845/777926
+  doi: https://doi.org/10.1158/1538-7445.AM2026-6845
+  abstract:
+    - h: Background
+      p: >-
+        Cell-free DNA (cfDNA) profiling has emerged as a promising tool in cancer detection. Methods include the identification of circulating tumor DNA (ctDNA), the profiling of cfDNA methylation, and the analysis of cfDNA fragments, including fragment size and position. We previously showed that fragment size diversity is strongly correlated with gene expression (Esfahani et al., 2022) and subsequently developed a mechanistic model for the cfDNA fragmentation process to enhance gene expression inference from cfDNA (Liu et al., 2025). However, analysis of cfDNA fragment size distribution alone leaves out useful information about fragment position. Since fragment position arises from nucleosome position, we incorporate prior knowledge about nucleosome positioning to improve our cfDNA fragmentation models. We hypothesize that incorporating cell-type-specific nucleosome patterns can progress cfDNA models towards cell-type deconvolution.
+    - h: Methods
+      p: >-
+        To incorporate prior knowledge about cell-type-specific nucleosome organization into our cfDNA fragmentation model, we use Micrococcal Nuclease sequencing (MNase-seq) data and MNase-Transcription Start Site Sequence Capture (mTSS-seq) data. For each transcription start site (TSS), we leverage this prior knowledge about nucleosome organization to simulate well-positioned nucleosomes. We then generate additional nucleosomes given the gene's strand information and cell type, generate cuts, and produce a mixture of simulated fragments from various cell types.
+    - h: Results
+      p: >-
+        To evaluate the updated cfDNA fragmentation model, we calculate the coverage over 10 bp intervals within a window of the TSS and compare it with the coverage for cfDNA control samples, alongside the same comparison for fragments simulated with our previous model. The updated model incorporating prior knowledge about nucleosome organization outperformed the previous model in simulating cfDNA fragmentation.
+    - h: Conclusions
+      p: >-
+        We show that integrating cell-type-specific nucleosome patterns improves cfDNA fragmentation models. Further improvements can be made given nucleosome organization information from additional cell types. We envision that this model-based approach will enhance tissue-of-origin classification and cancer detection.

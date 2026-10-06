@@ -3,6 +3,22 @@
 # pubmed (optional URL), type: paper | abstract | preprint,
 # selected: true to feature on the home page, tag: short topic label.
 
+- title: A pan-cancer atlas of telomere length in tissues and plasma cell-free DNA (VERACITY)
+  authors: Shi J, Espinoza L, Zhang M, Shahrokh Esfahani M
+  journal: Cancer Research (AACR Annual Meeting abstract 6892)
+  year: 2026
+  doi: https://doi.org/10.1158/1538-7445.AM2026-6892
+  type: abstract
+  tag: Telomeres
+
+- title: Using cell-type-specific nucleosome patterns to improve cell-free DNA fragmentation models in lung cancer (DECAF)
+  authors: Liu BS, Zhang M, Shahrokh Esfahani M
+  journal: Cancer Research (AACR Annual Meeting abstract 6845)
+  year: 2026
+  doi: https://doi.org/10.1158/1538-7445.AM2026-6845
+  type: abstract
+  tag: Fragmentomics
+
 - title: Loss of payload sensitivity and other mechanisms of resistance to T-DXd in HER2-mutant NSCLC — implications for subsequent responsiveness to HER2 TKIs
   authors: Nilsson MB, Le X, Poteete A, Yu X, He J, Huang Q, Shibata Y, Liu X, Moran C, Alizadeh AA, Diehn M, Wakelee H, Almanza D, Soltys S, Sugio T, Mutter J, Kang X, Wang R, Jun S, Esfahani MS, Tran H, Xi Y, Hong L, Huo X, Kumar A, Ren X, Oguchi K, Minamiguchi K, Weipert CM, Wang J, Kittler R, Heymach JV
   journal: Journal of Thoracic Oncology
@@ -40,6 +56,30 @@
   type: paper
   selected: true
   tag: Dynamic risk
+
+- title: Comprehensive classification of hematological malignancies by integrating genomic and immune repertoire profiles with explainable AI (Heme-xAI)
+  authors: Ashtari A, Schroers-Martin J, Alig S, Stehr H, Shahrokh Esfahani M
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2025
+  doi: https://doi.org/10.1182/blood-2025-395
+  type: abstract
+  tag: Explainable AI
+
+- title: Distinct morphological features of malignant cells in large B-cell lymphoma identified by soft-segmentation in imaging-based spatial proteomics (SegMO)
+  authors: Shi J, Noordenbos T, IJsselsteijn M, De Miranda N, Vermaat J, Shahrokh Esfahani M
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2025
+  doi: https://doi.org/10.1182/blood-2025-4342
+  type: abstract
+  tag: Spatial proteomics
+
+- title: Non-invasive mantle cell lymphoma risk stratification by inference of tumor proliferation from cfDNA
+  authors: Ashtari A, Mutter J, Tessoulin B, Rossi C, Boegeholz J, Goldstein J, Klanova M, Kuehn J, Alig S, Schroers-Martin J, Liu CL, Olsen M, Kang X, Trneny M, Le Gouill S, Diehn M, Shahrokh Esfahani M, Alizadeh A
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2025
+  doi: https://doi.org/10.1182/blood-2025-1789
+  type: abstract
+  tag: Expression inference
 
 - title: Ultrasensitive circulating tumor DNA MRD status predicts treatment failure and complements PET/CT throughout treatment for early and advanced stage classic Hodgkin lymphoma
   authors: Boegeholz J, Rossi C, Goldstein JS, Alig SK, Garofalo A, Esfahani M, Schroers-Martin JG, Liu C, Olsen M, Kang X, Tian F, Kurtz D, Andre M, Fornecker L, Casasnovas O, Diehn M, Ghesquieres H, Alizadeh AA

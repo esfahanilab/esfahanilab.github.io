@@ -11,8 +11,12 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
   <p class="lede">Web tools and models that accompany our publications. Each is hosted at Stanford and linked to the paper that describes it.</p>
 </div>
 <section style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head reveal" style="margin-bottom:1.5rem"><div><p class="eyebrow">Released</p><h2>Web tools</h2></div></div>
+  </div>
   <div class="wrap grid grid-3">
-    {% for tool in site.data.tools %}
+    {% assign released = site.data.tools | where: "status", "released" %}
+    {% for tool in released %}
     <article class="card tool reveal">
       <span class="pill">{{ tool.venue }}</span>
       <h3 style="margin-bottom:.2rem">{{ tool.name }}</h3>
@@ -24,7 +28,29 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
     {% endfor %}
   </div>
 </section>
-<section style="padding-top:0">
+<section style="background:var(--bg-2);border-block:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-head reveal"><div><p class="eyebrow">In development</p><h2>Methods on their way</h2></div><span class="muted">Presented as conference abstracts; software to follow with the papers.</span></div>
+    <div class="grid grid-2" style="align-items:start">
+      {% assign dev = site.data.tools | where: "status", "development" %}
+      {% for tool in dev %}
+      <article class="card tool dev reveal">
+        <span class="pill accent">{{ tool.tag }}</span>
+        <h3 style="margin-bottom:.2rem">{{ tool.name }}</h3>
+        <p class="muted" style="margin:.4rem 0 0">{{ tool.blurb }}</p>
+        <p class="paper"><a href="{{ tool.url }}" target="_blank" rel="noopener">{{ tool.paper }}</a><br><span class="authors">{{ tool.authors }}</span><br><i>{{ tool.venue }}</i></p>
+        <details class="abstract">
+          <summary>Read the abstract</summary>
+          {% for sec in tool.abstract %}<p><b>{{ sec.h }}.</b> {{ sec.p }}</p>{% endfor %}
+          <p class="muted" style="font-size:.85rem"><a href="{{ tool.doi }}" target="_blank" rel="noopener">{{ tool.doi | replace: "https://doi.org/", "doi:" }}</a></p>
+        </details>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
   <div class="wrap">
     <div class="card reveal" style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:space-between">
       <div><h3 style="margin:0 0 .3rem">Code</h3><p class="muted" style="margin:0">Software from current projects is released alongside each paper on the lab's GitHub organization.</p></div>

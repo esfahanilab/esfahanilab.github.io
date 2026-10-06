@@ -13,7 +13,7 @@
     - { label: Stanford Profile, url: "https://profiles.stanford.edu/mohammad-shahrokh-esfahani" }
     - { label: Google Scholar,   url: "https://scholar.google.com/citations?user=3LpGRA8AAAAJ&hl=en" }
   bio: >-
-    Shahrokh is a computational scientist working at the intersection of
+    Mohammad is a computational scientist working at the intersection of
     machine learning, Bayesian statistics, and cancer genomics. He led the
     development of EPIC-Seq, which infers tumor gene expression from the
     fragmentation patterns of cell-free DNA, and his group develops methods that
@@ -39,7 +39,7 @@
   photo: shi.jpg
   email: junmings@stanford.edu
   bio: >-
-    Seraphina is co-mentored by Shahrokh Esfahani and Md Tauhidul Islam. She
+    Seraphina is co-mentored by Mohammad Shahrokh Esfahani and Md Tauhidul Islam. She
     works on patient-centered, high-dimensional, multimodal data, including
     imaging-based spatial proteomics of lymphoma, to understand how malignant
     cells and their neighbors organize in tissue.
@@ -94,7 +94,7 @@
   photo: sampietro.jpg
   email: esampi@stanford.edu
   bio: >-
-    Emma is jointly mentored by Ash Alizadeh and Shahrokh Esfahani. She
+    Emma is jointly mentored by Ash Alizadeh and Mohammad Shahrokh Esfahani. She
     develops neural networks for cell-free DNA analysis and noninvasive cancer
     detection.
 

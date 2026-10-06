@@ -43,8 +43,8 @@
   photos:
     - { file: IMG_0955.jpg, caption: Amirsaman Ashtari with his poster at ASH 2025. }
     - { file: IMG_1103.jpg, caption: Seraphina Shi with her poster at ASH 2025. }
-    - { file: image003.jpg, caption: Shahrokh presenting at the 67th ASH Annual Meeting. }
-    - { file: IMG_1104.jpg, caption: Seraphina and Amirsaman at ASH 2025 in Orlando. }
+    - { file: IMG_1104.jpg, caption: Mohammad presenting at the 67th ASH Annual Meeting. }
+    - { file: IMG_1106.jpg, caption: Seraphina and Amirsaman at ASH 2025 in Orlando. }
 
 - date: 2025-09-01
   title: Welcome Emma Sampietro and Chloe Jeon
@@ -58,10 +58,9 @@
     Jessica Saal Award for her project on hierarchical deep-learning-based lung
     carcinoma detection and tumor fraction estimation from circulating cell-free DNA.
   photos:
-    - { file: image009.jpg, caption: Ananya presenting her SIMR poster. }
-    - { file: image007.jpg, caption: Ananya receiving the Jessica Saal Award. }
-    - { file: image008.jpg, caption: Matthew at the SIMR closing ceremony. }
-    - { file: IMG_1106.jpg, caption: The 2025 SIMR cohort. }
+    - { file: image008.jpg, caption: Ananya presenting her SIMR poster. }
+    - { file: image007.jpg, caption: Matthew receiving his certificate at the SIMR closing ceremony. }
+    - { file: image009.jpg, caption: The 2025 SIMR cohort. }
 
 - date: 2025-04-01
   title: Four abstracts at AACR 2025

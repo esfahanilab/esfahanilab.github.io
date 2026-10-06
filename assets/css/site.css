@@ -323,3 +323,13 @@ a.card { text-decoration: none; display: block; }
 
 /* pills inside flex-column cards should not stretch */
 .card .pill { align-self: flex-start; }
+
+/* in-development tools: abstract disclosure */
+.tool.dev .paper .authors { color: var(--muted); font-size: .88rem; }
+.tool .abstract { margin-top: .9rem; border-top: 1px solid var(--line); padding-top: .8rem; }
+.tool .abstract summary { cursor: pointer; font-weight: 500; color: var(--accent); list-style: none; font-size: .95rem; }
+.tool .abstract summary::-webkit-details-marker { display: none; }
+.tool .abstract summary::after { content: " +"; }
+.tool .abstract[open] summary::after { content: " –"; }
+.tool .abstract p { font-size: .92rem; color: var(--ink-2); margin: .7rem 0 0; }
+.tool .abstract p b { color: var(--ink); }
