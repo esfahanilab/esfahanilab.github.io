@@ -1,0 +1,51 @@
+---
+layout: default
+title: Publications
+slug: publications
+permalink: /publications/
+description: Publications from the Esfahani Lab and its principal investigator, spanning cell-free DNA fragmentomics, EPIC-Seq, dynamic risk models, lymphoma, and lung cancer.
+---
+<div class="wrap page-head">
+  <p class="eyebrow">Publications</p>
+  <h1>Papers and abstracts</h1>
+  <p class="lede">Selected work from the lab and from its principal investigator. For the complete record see <a href="{{ site.scholar }}" target="_blank" rel="noopener">Google Scholar</a> or the <a href="{{ site.stanford_profile }}?tab=publications" target="_blank" rel="noopener">Stanford profile</a>. Asterisks mark equal contribution.</p>
+</div>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="pub-tools">
+      <div class="seg" data-pub-filter role="group" aria-label="Filter by type">
+        <button type="button" data-value="all" aria-pressed="true">All</button>
+        <button type="button" data-value="paper" aria-pressed="false">Papers</button>
+        <button type="button" data-value="abstract" aria-pressed="false">Abstracts</button>
+      </div>
+      <input type="search" data-pub-search placeholder="Search titles, authors, journals…" aria-label="Search publications">
+      <span class="muted" data-pub-count></span>
+    </div>
+
+    <div data-pub-list>
+      {% assign years = site.data.publications | map: "year" | uniq %}
+      {% for y in years %}
+      <div class="pub-year">
+        <h2>{{ y }}</h2>
+        <div>
+          {% assign items = site.data.publications | where: "year", y %}
+          {% for pub in items %}
+          <article class="pub" data-type="{{ pub.type }}">
+            <h3 class="pub-title"><a href="{{ pub.doi }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+            <p class="pub-authors">{{ pub.authors }}</p>
+            <div class="pub-meta">
+              <span class="journal">{{ pub.journal }}</span>
+              {% if pub.tag %}<span class="pill">{{ pub.tag }}</span>{% endif %}
+              <a href="{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>
+              {% if pub.pubmed %}<a href="{{ pub.pubmed }}" target="_blank" rel="noopener">PubMed</a>{% endif %}
+              <button type="button" class="expand">all authors</button>
+            </div>
+          </article>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

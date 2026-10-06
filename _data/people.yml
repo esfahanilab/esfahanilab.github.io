@@ -1,0 +1,181 @@
+# ── People ─────────────────────────────────────────────────────────────────────
+# To add someone: copy a block, drop a 600×600 photo in assets/img/people/,
+# and set `photo` to the file name. Groups: pi, postdoc, student, staff, alumni.
+# Members are shown in the order listed. Alumni are grouped separately.
+
+- name: Mohammad Shahrokh Esfahani, PhD
+  group: pi
+  role: Principal Investigator
+  title: Assistant Professor of Radiation Oncology (Radiation and Cancer Biology)
+  photo: esfahani.jpg
+  email: shahrokh@stanford.edu
+  links:
+    - { label: Stanford Profile, url: "https://profiles.stanford.edu/mohammad-shahrokh-esfahani" }
+    - { label: Google Scholar,   url: "https://scholar.google.com/citations?user=3LpGRA8AAAAJ&hl=en" }
+  bio: >-
+    Shahrokh is a computational scientist working at the intersection of
+    machine learning, Bayesian statistics, and cancer genomics. He led the
+    development of EPIC-Seq, which infers tumor gene expression from the
+    fragmentation patterns of cell-free DNA, and his group develops methods that
+    recover weak biological signals from noisy, high-dimensional assays. He
+    started the lab in Stanford's Department of Radiation Oncology in March 2024.
+
+- name: Amirsaman Ashtari, PhD
+  group: postdoc
+  role: Postdoctoral Scholar
+  since: Sept 2024
+  photo: ashtari.jpg
+  email: aashtari@stanford.edu
+  bio: >-
+    Amirsaman trained in AI for computer vision and graphics during his PhD at
+    KAIST and ETH Zürich, where he received a Young Researcher Award. In the
+    lab he builds deep-learning models that dissect tumor gene expression and
+    the tumor microenvironment from cell-free DNA and targeted sequencing data.
+
+- name: Junming (Seraphina) Shi, PhD
+  group: postdoc
+  role: Postdoctoral Scholar
+  since: Feb 2025
+  photo: shi.jpg
+  email: junmings@stanford.edu
+  bio: >-
+    Seraphina is co-mentored by Shahrokh Esfahani and Md Tauhidul Islam. She
+    works on patient-centered, high-dimensional, multimodal data, including
+    imaging-based spatial proteomics of lymphoma, to understand how malignant
+    cells and their neighbors organize in tissue.
+
+- name: Mengran Zhang, MS
+  group: staff
+  role: Bioinformatician
+  photo: zhang.jpg
+  email: mzhang13@stanford.edu
+  bio: >-
+    Mengran holds a master's degree in Statistics from Yale University and
+    previously worked as a statistician and computational biologist at the
+    Dana-Farber Cancer Institute. She builds and maintains the lab's analysis
+    pipelines across cohorts.
+
+- name: Brian Liu
+  group: student
+  role: Research Assistant
+  since: Sept 2025
+  photo: liu.jpg
+  email: briansliu@stanford.edu
+  bio: >-
+    Brian is a graduate of Stanford's Institute for Computational and
+    Mathematical Engineering. He applies statistical optimization to problems in
+    computational genomics, including mathematical models of cell-free DNA
+    fragmentation.
+
+- name: Chloe Jeon
+  group: student
+  role: Master's Student, Computer Science
+  since: Sept 2025
+  photo: jeon.jpg
+  email: chloe_jeon@stanford.edu
+  bio: >-
+    Chloe is a Computer Science master's student specializing in AI. She works
+    at the intersection of biology, medicine, and machine learning, using
+    neural networks to address problems in healthcare.
+
+- name: Emma Sampietro
+  group: student
+  role: Master's Student, Computational & Mathematical Engineering
+  since: Sept 2025
+  photo: sampietro.jpg
+  email: esampi@stanford.edu
+  bio: >-
+    Emma is jointly mentored by Ash Alizadeh and Shahrokh Esfahani. She
+    develops neural networks for cell-free DNA analysis and noninvasive cancer
+    detection.
+
+- name: Asim Kalco
+  group: student
+  role: Rotation Student, Biomedical Physics PhD
+  since: Jan 2026
+  photo: kalco.jpg
+  email: akalco@stanford.edu
+  bio: >-
+    Asim is a first-year Biomedical Physics PhD student interested in using
+    circulating cell-free DNA to track aging-related signals and in the
+    information-theoretic limits of fragmentomics.
+
+- name: Mark Robinson
+  group: student
+  role: Master's Student, Statistics
+  since: Feb 2026
+  photo: robinson.jpg
+  bio: >-
+    Mark is a Statistics master's student with a background in econometrics.
+    He works on statistical guarantees for the use of fragmentomic signals from
+    liquid biopsies.
+
+- name: Ananya Pradhan
+  group: student
+  role: High School Intern
+  since: Aug 2025
+  photo: pradhan.jpg
+  bio: >-
+    Ananya is a student at The Harker School planning to major in Computer
+    Science. Her research sits at the intersection of deep learning,
+    computational analysis, and high-dimensional biological data. She received
+    the Jessica Saal Award for her SIMR project in 2025.
+
+- name: Michelle Ly
+  group: staff
+  role: Administrative Associate
+  photo: ly.jpg
+  email: mly00@stanford.edu
+  bio: >-
+    Michelle provides administrative support to the lab within the Department
+    of Radiation Oncology.
+
+# ── Alumni ─────────────────────────────────────────────────────────────────────
+- name: Eden Luvishis
+  group: alumni
+  role: Master's Student, ICME
+  tenure: Apr 2024 – Jul 2025
+  photo: luvishis.jpg
+  bio: Applied optimization and machine learning to large-scale genomic datasets.
+
+- name: Leslie Espinoza Campomanes
+  group: alumni
+  role: Master's Student, Biomedical Informatics
+  tenure: Jul 2024 – Jul 2025
+  photo: espinoza.jpg
+  bio: Modeled programs from multi-omics data; recipient of the IDHE Research Fellowship.
+
+- name: Matthew Sun
+  group: alumni
+  role: High School Intern
+  tenure: Aug – Dec 2025
+  photo: sun.jpg
+  bio: Worked on GPU-accelerated analysis of cell-free DNA for early cancer detection.
+
+- name: Nourya Cohen
+  group: alumni
+  role: Master's Student, Computer Science
+  tenure: Oct 2024 – Mar 2025
+  photo: cohen.jpg
+  bio: Explored data science and large language models for improving quality of and access to healthcare.
+
+- name: Isabel Michel
+  group: alumni
+  role: Master's Student, Computer Science
+  tenure: Jan – Mar 2025
+  photo: michel.jpg
+  bio: Focused on AI for early disease prevention, with a background in human biology and health disparities.
+
+- name: Pulkit Goel
+  group: alumni
+  role: Master's Student
+  tenure: Apr – Sep 2024
+  photo: goel.jpg
+  bio: Worked on biomedical data problems using machine learning.
+
+- name: Meenal Gupta
+  group: alumni
+  role: Master's Student, Computer Science
+  tenure: Jul – Sep 2024
+  photo: gupta.jpg
+  bio: Brought a theoretical computer science perspective to data-mining problems in the lab.

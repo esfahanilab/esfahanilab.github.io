@@ -1,0 +1,105 @@
+---
+layout: default
+title: Research
+slug: research
+permalink: /research/
+description: Research themes of the Esfahani Lab — cell-free DNA fragmentomics, gene expression inference, dynamic risk models, tumor characterization, and early cancer detection.
+---
+<div class="wrap page-head">
+  <p class="eyebrow">Research</p>
+  <h1>Reading the molecular record of cancer and its host</h1>
+  <p class="lede">Our work is organized around one question: how much of a cell's identity, functional state, and history survives in the molecules it leaves behind, and what does that record tell us about whether a cancer will be eliminated, controlled, or progress? Each theme below attacks a piece of that question.</p>
+</div>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <article class="theme reveal" id="expression">
+      <div>
+        <span class="pill">Functional state</span>
+        <h3>Enhanced gene expression inference from plasma</h3>
+        <p>Gene expression and its regulation are a multi-layer process. Most efforts to predict expression from chromatin accessibility and sequence rely on deep models trained on tissue. We push that boundary into the blood: inferring expression from the fragmentation patterns of cell-free DNA at promoters, enhancers, super-enhancers, and transcription-factor binding sites.</p>
+        <ul>
+          <li>EPIC-Seq showed that promoter fragmentation entropy tracks gene expression; we are extending the idea genome-wide and to whole-genome sequencing.</li>
+          <li>Representation-learning models that distill expression programs and cell-type composition from low tumor-fraction samples.</li>
+          <li>Information-theoretic limits: how much expression signal can a given depth and tumor fraction support?</li>
+        </ul>
+        <div class="tags"><span class="pill">EPIC-Seq</span><span class="pill">Fragmentomics</span><span class="pill">Deep learning</span></div>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure2.jpg' | relative_url }}" alt="Scatter plot of promoter fragmentation entropy against gene expression, and a schematic of regulatory elements feeding a neural network." loading="lazy" width="1800" height="1037"><figcaption>Promoter fragmentation entropy (PFE) correlates with expression in PBMCs (r = 0.9). Right: regulatory elements and their fragment coverage feed an autoencoder.</figcaption></figure>
+    </article>
+
+    <article class="theme reveal" id="dynamics">
+      <div>
+        <span class="pill accent">History &amp; trajectory</span>
+        <h3>Dynamic prognostic and predictive models</h3>
+        <p>Outcome is shaped by what happens during therapy, not only by what was true at diagnosis. We develop models that update a patient's risk as serial measurements arrive, and that identify who benefits from a given treatment.</p>
+        <ul>
+          <li>CIRI, the Continuous Individualized Risk Index, integrates pretreatment features with interim ctDNA and MRD to forecast progression.</li>
+          <li>Multi-scale time-series models for detecting emergent, resistant lesions before they are clinically evident.</li>
+          <li>Combining ctDNA with radiomics for dynamic risk assessment in localized lung cancer.</li>
+        </ul>
+        <div class="tags"><span class="pill accent">CIRI</span><span class="pill accent">MRD</span><span class="pill accent">Longitudinal modeling</span></div>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure3.jpg' | relative_url }}" alt="Treatment schema and survival curves comparing FCR with non-FCR therapy in CIRI low-risk and high-risk CLL patients." loading="lazy" width="1800" height="1072"><figcaption>In CLL, interim CIRI risk identifies patients for whom FCR chemoimmunotherapy improves progression-free survival (right) and those for whom it does not (left).</figcaption></figure>
+    </article>
+
+    <article class="theme reveal" id="characterization">
+      <div>
+        <span class="pill">Identity</span>
+        <h3>Molecular characterization of tumors and their ecosystems</h3>
+        <p>Reliable genotyping and phenotyping are the foundation of everything else. We develop methods for calling structural variants, single and phased variants, and copy-number changes from noninvasive samples, and for resolving tumor and immune cell states in tissue.</p>
+        <ul>
+          <li>Noninvasive genomic profiling defined two subtypes of classic Hodgkin lymphoma, H1 and H2, with distinct biology and outcomes.</li>
+          <li>Fragment-size and end-motif biology, including DNASE1L3 activity, as a readout of the cells and nucleases that shaped each fragment.</li>
+          <li>Single-cell and spatial proteomic analysis of the tumor microenvironment in lymphoma.</li>
+        </ul>
+        <div class="tags"><span class="pill">Hodgkin lymphoma</span><span class="pill">Small cell lung cancer</span><span class="pill">Spatial proteomics</span></div>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure1.jpg' | relative_url }}" alt="Fragment size distributions, DNASE1L3 expression, end-motif logos, and an oncoprint of Hodgkin lymphoma subtypes H1 and H2." loading="lazy" width="1800" height="1025"><figcaption>Mutant fragments are shorter in large B-cell lymphoma than in Hodgkin lymphoma (left); genomic landscape of the H1 and H2 subtypes (right).</figcaption></figure>
+    </article>
+
+    <article class="theme reveal" id="recurrence">
+      <div>
+        <span class="pill accent">Response to therapy</span>
+        <h3>Predicting local recurrence after chemoradiation in lung cancer</h3>
+        <p>Nearly half of non-small cell lung cancer patients present with localized disease and are candidates for curative chemoradiotherapy. Roughly 30% of stage III patients nevertheless recur locally, yet radiation is not personalized by tumor biology. We profile cell-free DNA to infer tumor RNA expression and identify determinants of response, so that radiation strategy can be adapted to the tumor in front of us.</p>
+        <div class="tags"><span class="pill accent">NSCLC</span><span class="pill accent">Chemoradiotherapy</span><span class="pill accent">Biomarkers</span></div>
+      </div>
+      <div class="card">
+        <p class="num">Why it matters</p>
+        <p>Imaging has improved targeting, but no further personalization is done on the basis of tumor biology. A noninvasive readout of the tumor's expression state before and during treatment could guide dose, timing, and the addition of systemic therapy.</p>
+        <p style="margin:0"><a class="more" href="{{ '/publications/' | relative_url }}">Related publications →</a></p>
+      </div>
+    </article>
+
+    <article class="theme reveal" id="detection">
+      <div>
+        <span class="pill">Early detection</span>
+        <h3>New signals for the earliest cancers</h3>
+        <p>Traditional liquid biopsy looks for tumor mutations, which may be rare or absent early on. We look for signals that do not depend on knowing the mutation: fragmentation patterns across the regulatory genome, aberrant telomere content, allele-fraction skew at germline SNPs that betrays copy-number change, and mosaic loss of chromosome Y. Integrated with machine learning, these become sensitive tests for nascent tumors and residual disease.</p>
+        <div class="tags"><span class="pill">Lung</span><span class="pill">Pancreatic</span><span class="pill">Ovarian</span><span class="pill">Multi-cancer</span></div>
+      </div>
+      <div class="card">
+        <p class="num">Signals we study</p>
+        <ul style="padding-left:1.1rem;margin:0;color:var(--ink-2)">
+          <li>Genome-wide fragmentomics of enhancers and promoters</li>
+          <li>Telomere length dynamics in plasma DNA</li>
+          <li>SNP allele-fraction skew and loss of heterozygosity</li>
+          <li>Mosaic loss of chromosome Y</li>
+          <li>Aging-related signals in cell-free DNA</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section style="background:var(--bg-2);border-top:1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-head reveal"><div><p class="eyebrow">Tools</p><h2>Methods we have released</h2></div><a class="more" href="{{ '/tools/' | relative_url }}">All tools →</a></div>
+    <div class="grid grid-3">
+      {% for tool in site.data.tools limit: 3 %}
+      <a class="card reveal" href="{{ tool.url }}" target="_blank" rel="noopener"><span class="pill">{{ tool.venue }}</span><h3>{{ tool.name }}</h3><p class="muted">{{ tool.blurb }}</p></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

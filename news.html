@@ -1,0 +1,31 @@
+---
+layout: default
+title: News
+slug: news
+permalink: /news/
+description: News from the Esfahani Lab — new members, conference presentations, and awards.
+---
+<div class="wrap page-head">
+  <p class="eyebrow">News</p>
+  <h1>Lab notebook</h1>
+  <p class="lede">Arrivals, departures, posters, and prizes, newest first.</p>
+</div>
+<section style="padding-top:0">
+  <div class="wrap news-list">
+    {% for item in site.data.news %}
+    <article class="news-item reveal">
+      <time class="news-date" datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%B %Y" }}</time>
+      <div>
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.body }}</p>
+        {% if item.links %}<ul class="news-links">{% for l in item.links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a></li>{% endfor %}</ul>{% endif %}
+        {% if item.photos %}
+        <div class="gallery">
+          {% for ph in item.photos %}<figure><img src="{{ '/assets/img/news/' | append: ph.file | relative_url }}" alt="{{ ph.caption }}" loading="lazy"><figcaption>{{ ph.caption }}</figcaption></figure>{% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>

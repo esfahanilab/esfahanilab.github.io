@@ -1,0 +1,35 @@
+# ── Esfahani Lab website configuration ────────────────────────────────────────
+title: Esfahani Lab
+tagline: Computational Oncology · Stanford Medicine
+description: >-
+  The Esfahani Lab at Stanford Radiation Oncology develops statistical and
+  machine-learning methods to reconstruct the identity, state, and history of
+  cells from the molecular traces they leave behind — and to recognize and
+  change the trajectory of emerging and residual cancer.
+
+# If the repo is <user>.github.io, leave baseurl empty.
+# If the repo is e.g. github.com/<user>/esfahani-lab, set baseurl: /esfahani-lab
+url: "https://esfahanilab.github.io"
+baseurl: ""
+
+email: shahrokh@stanford.edu
+official_site: https://med.stanford.edu/esfahanilab.html
+scholar: https://scholar.google.com/citations?user=3LpGRA8AAAAJ&hl=en
+stanford_profile: https://profiles.stanford.edu/mohammad-shahrokh-esfahani
+github: https://github.com/esfahanilab
+
+address:
+  - 3145 Porter Drive, Wing A
+  - Palo Alto, CA 94304
+
+nav:
+  - { title: Research,      url: /research/ }
+  - { title: People,        url: /people/ }
+  - { title: Publications,  url: /publications/ }
+  - { title: Tools,         url: /tools/ }
+  - { title: News,          url: /news/ }
+  - { title: Join Us,       url: /join/ }
+
+markdown: kramdown
+permalink: pretty
+exclude: [README.md, Gemfile, Gemfile.lock, vendor]

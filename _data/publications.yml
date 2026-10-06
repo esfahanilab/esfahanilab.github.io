@@ -1,0 +1,186 @@
+# ── Publications ───────────────────────────────────────────────────────────────
+# Newest first. Fields: title, authors, journal, year, doi (full URL),
+# pubmed (optional URL), type: paper | abstract | preprint,
+# selected: true to feature on the home page, tag: short topic label.
+
+- title: Loss of payload sensitivity and other mechanisms of resistance to T-DXd in HER2-mutant NSCLC — implications for subsequent responsiveness to HER2 TKIs
+  authors: Nilsson MB, Le X, Poteete A, Yu X, He J, Huang Q, Shibata Y, Liu X, Moran C, Alizadeh AA, Diehn M, Wakelee H, Almanza D, Soltys S, Sugio T, Mutter J, Kang X, Wang R, Jun S, Esfahani MS, Tran H, Xi Y, Hong L, Huo X, Kumar A, Ren X, Oguchi K, Minamiguchi K, Weipert CM, Wang J, Kittler R, Heymach JV
+  journal: Journal of Thoracic Oncology
+  year: 2026
+  doi: https://doi.org/10.1016/j.jtho.2026.01.007
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/41548807
+  type: paper
+  tag: Lung cancer
+
+- title: Multidimensional characterization of tumor-immune architecture reveals clinically relevant classic Hodgkin lymphoma subtypes
+  authors: Aoki T, Duns G, Rai S, Jiang A, Lytle A, Yin Y, Kishida M, Yu Li M, Lee C, Smorra D, Hilton LK, Healy S, Alig SK, Shahrokh Esfahani M, Sarkozy C, Hung SS, Milne K, Telenius A, O'Brien L, Wong JC, Cassidy C, Fujisawa M, Strong C, Goodyear T, Di Vito C, Luksik C, Edin G, Gonzalez L, Rangel Patiño J, Hong M, Wu S, Lee E, Sakhdari A, Takata K, Miyata-Takata T, Boyle M, Ben-Neriah S, Weng AP, Xu A, Merchant A, Roth A, Crump M, Kuruvilla J, Prica A, Kridel R, Huntsman DG, Nelson BH, Farinha P, Morin RD, Alizadeh AA, Savage KJ, Scott DW, Steidl C
+  journal: Cancer Discovery
+  year: 2026
+  doi: https://doi.org/10.1158/2159-8290.CD-25-0859
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/41615883
+  type: paper
+  tag: Lymphoma
+
+- title: Field-effect-informed urine liquid biopsy for bladder cancer
+  authors: Shi WY, Liu KJ, Esfahani MS, Mach KE, Phillips NA, Almanza D, Bajpai RK, Schroers-Martin JG, Trabanino L, Lee TJ, La V, Rodriguez G, Holton G, Chen SB, Mullane P, Wu DJ, Nesselbush MC, Sugio T, Cheng JC, Jabara I, Hamilton EG, Alig SK, Liu CL, Peterson DJ, Prado K, Shkolyar E, Thong A, Shah JB, Gill H, Kunder CA, Chan E, Khaki AR, Skinner EC, Alizadeh AA, Liao JC, Diehn M
+  journal: Cell
+  year: 2026
+  doi: https://doi.org/10.1016/j.cell.2025.12.054
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/41605210
+  type: paper
+  selected: true
+  tag: Liquid biopsy
+
+- title: Integrating ctDNA analysis and radiomics for dynamic risk assessment in localized lung cancer
+  authors: Moding EJ, Shahrokh Esfahani M, Jin C, Hui AB, Nabet BY, Liu Y, Chabon JJ, Binkley MS, Kurtz DM, Hamilton EG, Chaudhuri AA, Liu CL, Li Z, Bonilla RF, Jiang AL, Lau BC, Lopez P, He J, Qiao Y, Xu T, Yao L, Gandhi S, Liao Z, Das M, Ramchandran KJ, Padda SK, Neal JW, Wakelee HA, Gensheimer MF, Loo BW, Li R, Lin SH, Alizadeh AA, Diehn M
+  journal: Cancer Discovery
+  year: 2025
+  doi: https://doi.org/10.1158/2159-8290.CD-24-1704
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/40299851
+  type: paper
+  selected: true
+  tag: Dynamic risk
+
+- title: Ultrasensitive circulating tumor DNA MRD status predicts treatment failure and complements PET/CT throughout treatment for early and advanced stage classic Hodgkin lymphoma
+  authors: Boegeholz J, Rossi C, Goldstein JS, Alig SK, Garofalo A, Esfahani M, Schroers-Martin JG, Liu C, Olsen M, Kang X, Tian F, Kurtz D, Andre M, Fornecker L, Casasnovas O, Diehn M, Ghesquieres H, Alizadeh AA
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2024
+  doi: https://doi.org/10.1182/blood-2024-201877
+  type: abstract
+  tag: MRD
+
+- title: Integrating genomic and transcriptomic features for noninvasive detection, characterization, and monitoring of T-cell lymphomas
+  authors: Sugio T, Nesselbush M, Shukla N, Garofalo A, Mutter JA, Esfahani M, Alig SK, Shi S, Noordenbos T, Hamilton MP, Rossi C, Tian F, Liu C, Olsen M, Kang X, Russler-Germain DA, Horwitz S, Kato K, Ito A, Yamagishi M, Fukuda T, Akashi K, Uchimaru K, Khodadoust MS, Diehn M, Mehta-Shah N, Alizadeh AA
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2024
+  doi: https://doi.org/10.1182/blood-2024-206518
+  type: abstract
+  tag: Lymphoma
+
+- title: Direct method for estimating the fraction of T and B/plasma cell-derived DNA
+  authors: Sugio T, Esfahani M, Jun S, Sworder BJ, Hamilton MP, Hosoya H, Olsen M, Kang X, Liu C, Tian F, Miklos DB, Kurtz D, Diehn M, Alizadeh AA
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2024
+  doi: https://doi.org/10.1182/blood-2024-193441
+  type: abstract
+  tag: Cell identity
+
+- title: Distinct Hodgkin lymphoma subtypes defined by noninvasive genomic profiling
+  authors: Alig SK*, Esfahani MS*, Garofalo A, Li MY, Rossi C, Flerlage T, Flerlage JE, Adams R, Binkley MS, Shukla N, Jin MC, Olsen M, Telenius A, Mutter JA, Schroers-Martin JG, Sworder BJ, Rai S, King DA, Schultz A, Bögeholz J, Su S, Kathuria KR, Liu CL, Kang X, Strohband MJ, Langfitt D, Pobre-Piza KF, Surman S, Tian F, Spina V, Tousseyn T, Buedts L, Hoppe R, Natkunam Y, Fornecker LM, Castellino SM, Advani R, Rossi D, Lynch R, Ghesquières H, Casasnovas O, Kurtz DM, Marks LJ, Link MP, André M, Vandenberghe P, Steidl C, Diehn M, Alizadeh AA
+  journal: Nature
+  year: 2024
+  doi: https://doi.org/10.1038/s41586-023-06903-x
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/38081297
+  type: paper
+  selected: true
+  tag: Lymphoma
+
+- title: Inferred gene expression by cell-free DNA profiling allows noninvasive lymphoma classification
+  authors: Mutter JA, Esfahani M, Schroers-Martin J, Alig SK, Hamilton MP, Sworder BJ, Tessoulin B, Boegeholz J, Flerlage T, Flerlage JE, Binkley MS, Sugio T, Rossi C, Olsen M, Liu C, Le Gouill S, Kurtz DM, Diehn M, Alizadeh AA
+  journal: Blood (ASH Annual Meeting abstract)
+  year: 2023
+  doi: https://doi.org/10.1182/blood-2023-186853
+  type: abstract
+  tag: Expression inference
+
+- title: Determinants of resistance to engineered T cell therapies targeting CD19 in large B cell lymphomas
+  authors: Sworder BJ, Kurtz DM, Alig SK, Frank MJ, Shukla N, Garofalo A, Macaulay CW, Shahrokh Esfahani M, Olsen MN, Hamilton J, Hosoya H, Hamilton M, Spiegel JY, Baird JH, Sugio T, Carleton M, Craig AF, Younes SF, Sahaf B, Sheybani ND, Schroers-Martin JG, Liu CL, Oak JS, Jin MC, Beygi S, Hüttmann A, Hanoun C, Dührsen U, Westin JR, Khodadoust MS, Natkunam Y, Majzner RG, Mackall CL, Diehn M, Miklos DB, Alizadeh AA
+  journal: Cancer Cell
+  year: 2023
+  doi: https://doi.org/10.1016/j.ccell.2022.12.005
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/36584673
+  type: paper
+  tag: Therapy resistance
+
+- title: Circulating tumor DNA profiling for detection, risk stratification, and classification of brain lymphomas
+  authors: Mutter JA, Alig SK, Esfahani MS, Lauer EM, Mitschke J, Kurtz DM, Kühn J, Bleul S, Olsen M, Liu CL, Jin MC, Macaulay CW, Neidert N, Volk T, Eisenblaetter M, Rauer S, Heiland DH, Finke J, Duyster J, Wehrle J, Prinz M, Illerhaus G, Reinacher PC, Schorb E, Diehn M, Alizadeh AA, Scherer F
+  journal: Journal of Clinical Oncology
+  year: 2023
+  doi: https://doi.org/10.1200/JCO.22.00826
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/36542815
+  type: paper
+  tag: Lymphoma
+
+- title: Inferring gene expression from cell-free DNA fragmentation profiles
+  authors: Esfahani MS, Hamilton EG, Mehrmohamadi M, Nabet BY, Alig SK, King DA, Steen CB, Macaulay CW, Schultz A, Nesselbush MC, Soo J, Schroers-Martin JG, Chen B, Binkley MS, Stehr H, Chabon JJ, Sworder BJ, Hui AB, Frank MJ, Moding EJ, Liu CL, Newman AM, Isbell JM, Rudin CM, Li BT, Kurtz DM, Diehn M, Alizadeh AA
+  journal: Nature Biotechnology
+  year: 2022
+  doi: https://doi.org/10.1038/s41587-022-01222-4
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/35361996
+  type: paper
+  selected: true
+  tag: Expression inference
+
+- title: Genomic profiling of bronchoalveolar lavage fluid in lung cancer
+  authors: Nair VS, Hui AB, Chabon JJ, Shahrokh Esfahani M, Stehr H, Nabet BY, Zhou L, Chaudhuri AA, Benson JA, Ayers K, Bedi H, Ramsey MC, Van Wert R, Antic S, Lui NS, Backhus LM, Berry MF, Sung AW, Massion PP, Shrager JB, Alizadeh AA, Diehn M
+  journal: Cancer Research
+  year: 2022
+  doi: https://doi.org/10.1158/0008-5472.CAN-22-0554
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/35748739
+  type: paper
+  tag: Lung cancer
+
+- title: Enhanced detection of minimal residual disease by targeted sequencing of phased variants in circulating tumor DNA
+  authors: Kurtz DM, Soo J, Co Ting Keh L, Alig S, Chabon JJ, Sworder BJ, Schultz A, Jin MC, Scherer F, Garofalo A, Macaulay CW, Hamilton EG, Chen B, Olsen M, Schroers-Martin JG, Craig AF, Moding EJ, Esfahani MS, Liu CL, Dührsen U, Hüttmann A, Casasnovas R, Westin JR, Roschewski M, Wilson WH, Gaidano G, Rossi D, Diehn M, Alizadeh AA
+  journal: Nature Biotechnology
+  year: 2021
+  doi: https://doi.org/10.1038/s41587-021-00981-w
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/34294911
+  type: paper
+  tag: MRD
+
+- title: The landscape of tumor cell states and ecosystems in diffuse large B cell lymphoma
+  authors: Steen CB, Luca BA, Esfahani MS, Azizi A, Sworder BJ, Nabet BY, Kurtz DM, Liu CL, Khameneh F, Advani RH, Natkunam Y, Myklebust JH, Diehn M, Gentles AJ, Newman AM, Alizadeh AA
+  journal: Cancer Cell
+  year: 2021
+  doi: https://doi.org/10.1016/j.ccell.2021.08.011
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/34597589
+  type: paper
+  tag: Cell identity
+
+- title: Short diagnosis-to-treatment interval is associated with higher circulating tumor DNA levels in diffuse large B-cell lymphoma
+  authors: Alig S, Macaulay CW, Kurtz DM, Dührsen U, Hüttmann A, Schmitz C, Jin MC, Sworder BJ, Garofalo A, Shahrokh Esfahani M, Nabet BY, Soo J, Scherer F, Craig AF, Casasnovas O, Westin JR, Gaidano G, Rossi D, Roschewski M, Wilson WH, Meignan M, Diehn M, Alizadeh AA
+  journal: Journal of Clinical Oncology
+  year: 2021
+  doi: https://doi.org/10.1200/JCO.20.02573
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/33909455
+  type: paper
+  tag: Lymphoma
+
+- title: Chromatin accessibility patterns in cell-free DNA reveal tumor heterogeneity
+  authors: Esfahani M, Mehrmohamadi M, Steen CB, Hamilton EG, King DA, Soo J, Macaulay C, Jin M, Kurtz DM, Nabet B, Moding E, Chabon J, Newman A, Diehn M, Alizadeh AA
+  journal: Cancer Research (AACR Annual Meeting abstract)
+  year: 2020
+  doi: https://doi.org/10.1158/1538-7445.AM2020-3388
+  type: abstract
+  tag: Expression inference
+
+- title: Integrating genomic features for non-invasive early lung cancer detection
+  authors: Chabon JJ, Hamilton EG, Kurtz DM, Esfahani MS, Moding EJ, Stehr H, Schroers-Martin J, Nabet BY, Chen B, Chaudhuri AA, Liu C, Hui AB, Jin MC, Azad TD, Almanza D, Jeon Y, Nesselbush MC, Keh L, Bonilla RF, Yoo CH, Ko RB, Chen EL, Merriott DJ, Massion PP, Mansfield AS, Jen J, Ren HZ, Lin SH, Costantino CL, Burr R, Tibshirani R, Gambhir SS, Berry GJ, Jensen KC, West RB, Neal JW, Wakelee HA, Loo BW, Kunder CA, Leung AN, Lui NS, Berry MF, Shrager JB, Nair VS, Haber DA, Sequist LV, Alizadeh AA, Diehn M
+  journal: Nature
+  year: 2020
+  doi: https://doi.org/10.1038/s41586-020-2140-0
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/32269342
+  type: paper
+  selected: true
+  tag: Early detection
+
+- title: Noninvasive early identification of therapeutic benefit from immune checkpoint inhibition
+  authors: Nabet BY*, Esfahani MS*, Moding EJ, Hamilton EG, Chabon JJ, Rizvi H, Steen CB, Chaudhuri AA, Liu CL, Hui AB, Almanza D, Stehr H, Gojenola L, Bonilla RF, Jin MC, Jeon YJ, Tseng D, Liu C, Merghoub T, Neal JW, Wakelee HA, Padda SK, Ramchandran KJ, Das M, Plodkowski AJ, Yoo C, Chen EL, Ko RB, Newman AM, Hellmann MD, Alizadeh AA, Diehn M
+  journal: Cell
+  year: 2020
+  doi: https://doi.org/10.1016/j.cell.2020.09.001
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/33007267
+  type: paper
+  selected: true
+  tag: Immunotherapy
+
+- title: Dynamic risk profiling using serial tumor biomarkers for personalized outcome prediction
+  authors: Kurtz DM, Esfahani MS, Scherer F, Soo J, Jin MC, Liu CL, Newman AM, Dührsen U, Hüttmann A, Casasnovas O, Westin JR, Ritgen M, Böttcher S, Langerak AW, Roschewski M, Wilson WH, Gaidano G, Rossi D, Bahlo J, Hallek M, Tibshirani R, Diehn M, Alizadeh AA
+  journal: Cell
+  year: 2019
+  doi: https://doi.org/10.1016/j.cell.2019.06.011
+  pubmed: https://pubmed.ncbi.nlm.nih.gov/31303371
+  type: paper
+  selected: true
+  tag: Dynamic risk

@@ -1,0 +1,148 @@
+---
+layout: default
+slug: home
+permalink: /
+---
+<section class="hero">
+  <canvas class="hero-canvas" data-hero-canvas aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Computational Oncology · Stanford Radiation Oncology</p>
+    <h1>How much of the <em>identity</em>, <em>functional state</em>, and <em>history</em> of cells can we reconstruct from the molecular traces they leave behind?</h1>
+    <p class="lede">We build statistical and machine-learning methods that read cell-free DNA, tumor genomes, and tissue images to recover what cells were, what they were doing, and where a cancer is headed, and we translate those readouts into noninvasive tests for detection, response, and residual disease.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">Explore our research</a>
+      <a class="btn" href="{{ '/join/' | relative_url }}">Join the lab</a>
+    </div>
+    <div class="hero-meta">
+      <span>Cell-free DNA fragmentomics</span>
+      <span>Bayesian &amp; deep learning</span>
+      <span>Lung cancer · Lymphoma · Liquid biopsy</span>
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="wrap band-grid">
+    <div>
+      <p class="eyebrow">The central question</p>
+      <blockquote>What determines whether an emerging or residual cancer is <strong>eliminated</strong>, <strong>remains controlled</strong>, or <strong>progresses</strong>, and can we <em>recognize</em> and <em>change</em> that trajectory?</blockquote>
+    </div>
+    <div>
+      <p class="band-note">Every blood draw carries fragments of DNA released by dying cells, tumor and host alike. Their sequence, their breakpoints, and their nucleosome footprints encode where they came from and what state those cells were in. We treat those fragments as a time-stamped record of the cancer–host equilibrium.</p>
+      <ul class="trajectory">
+        <li style="--dot: var(--signal)"><div><b>Eliminated</b><span>Minimal residual disease falls below detection and stays there.</span></div></li>
+        <li style="--dot: #e8b84a"><div><b>Controlled</b><span>Disease persists but is held in check by therapy or immunity.</span></div></li>
+        <li style="--dot: var(--accent)"><div><b>Progresses</b><span>Resistant clones emerge and the trajectory bends upward.</span></div></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><p class="eyebrow">How we work</p><h2>Three ways of reading a molecular trace</h2></div>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9h8M21 9h8M3 16h4M17 16h12M3 23h12M25 23h4"/><circle cx="16" cy="9" r="3.2"/><circle cx="12" cy="16" r="3.2"/><circle cx="20" cy="23" r="3.2"/></svg>
+        <h3>Identity</h3>
+        <p>Which cell types, tissues, and tumor subtypes shed the fragments we see? We infer cell-of-origin, genotype, and lineage from fragment ends, methylation-independent nucleosome footprints, and sequence.</p>
+      </div>
+      <div class="pillar reveal">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 24c6 0 6-14 12-14s6 10 12 10"/><path d="M4 12h6M22 6h6" opacity=".4"/></svg>
+        <h3>Functional state</h3>
+        <p>What were those cells doing? EPIC-Seq and its successors reconstruct gene expression, chromatin accessibility, and proliferation from plasma DNA, turning a liquid biopsy into a liquid transcriptome.</p>
+      </div>
+      <div class="pillar reveal">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 26 12 14l6 6 10-14"/><circle cx="12" cy="14" r="2"/><circle cx="18" cy="20" r="2"/><circle cx="28" cy="6" r="2"/></svg>
+        <h3>History &amp; trajectory</h3>
+        <p>Where has the disease been, and where is it going? Serial measurements, dynamic risk models, and longitudinal multi-omics let us forecast relapse, resistance, and response in time to act.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><p class="eyebrow">Research</p><h2>From fragments to forecasts</h2></div>
+      <a class="more" href="{{ '/research/' | relative_url }}">All research themes →</a>
+    </div>
+    <article class="theme reveal">
+      <div>
+        <span class="pill">Functional state</span>
+        <h3>Gene expression inference from cell-free DNA</h3>
+        <p>Nucleosome positioning at promoters, enhancers, and super-enhancers leaves a fragmentation signature in plasma. We model that signature to infer the expression state of the cells that shed the DNA, and extend it from targeted promoters to the whole regulatory genome.</p>
+        <a class="more" href="{{ '/research/#expression' | relative_url }}">Read more →</a>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure2.jpg' | relative_url }}" alt="Scatter plot of promoter fragmentation entropy against gene expression, and a schematic of regulatory elements feeding a neural network." loading="lazy" width="1800" height="1037"><figcaption>Promoter fragmentation entropy tracks gene expression (left); regulatory elements feed a representation-learning model (right).</figcaption></figure>
+    </article>
+    <article class="theme reveal">
+      <div>
+        <span class="pill accent">History &amp; trajectory</span>
+        <h3>Dynamic prognostic and predictive models</h3>
+        <p>Risk is not fixed at diagnosis. Serial biomarkers, interim MRD, and imaging update a patient's risk continuously. We develop models such as CIRI that integrate these measurements to identify who benefits from a given therapy and when to change course.</p>
+        <a class="more" href="{{ '/research/#dynamics' | relative_url }}">Read more →</a>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure3.jpg' | relative_url }}" alt="Treatment schema and survival curves comparing FCR with non-FCR therapy in CIRI low-risk and high-risk CLL patients." loading="lazy" width="1800" height="1072"><figcaption>Dynamic risk stratification separates patients who benefit from intensive therapy from those who do not.</figcaption></figure>
+    </article>
+    <article class="theme reveal">
+      <div>
+        <span class="pill">Identity</span>
+        <h3>Molecular characterization of tumors and their ecosystems</h3>
+        <p>Noninvasive genotyping, phasing, and fragmentomics define new disease subtypes, as in classic Hodgkin lymphoma, and reveal how tumor cells and their immune neighbors are organized in tissue.</p>
+        <a class="more" href="{{ '/research/#characterization' | relative_url }}">Read more →</a>
+      </div>
+      <figure><img src="{{ '/assets/img/research/figure1.jpg' | relative_url }}" alt="Fragment size distributions, DNASE1L3 expression, end-motif logos, and an oncoprint of Hodgkin lymphoma subtypes H1 and H2." loading="lazy" width="1800" height="1025"><figcaption>Fragment-size and end-motif biology (left) and the genomic landscape of two Hodgkin lymphoma subtypes (right).</figcaption></figure>
+    </article>
+  </div>
+</section>
+
+<section style="background: var(--bg-2); border-block: 1px solid var(--line)">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><p class="eyebrow">Selected publications</p><h2>Recent and foundational work</h2></div>
+      <a class="more" href="{{ '/publications/' | relative_url }}">All publications →</a>
+    </div>
+    <div class="pub-feature">
+      {% assign selected = site.data.publications | where: "selected", true %}
+      {% for pub in selected limit: 6 %}
+      <article class="card pub-card reveal">
+        <span class="pill">{{ pub.tag }}</span>
+        <h3 class="pub-title"><a href="{{ pub.doi }}" target="_blank" rel="noopener">{{ pub.title }}</a></h3>
+        <p class="pub-authors">{{ pub.authors }}</p>
+        <span class="spacer"></span>
+        <span class="journal"><b>{{ pub.journal }}</b> · {{ pub.year }}</span>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div><p class="eyebrow">News</p><h2>What's happening in the lab</h2></div>
+      <a class="more" href="{{ '/news/' | relative_url }}">All news →</a>
+    </div>
+    <ul class="news-compact reveal">
+      {% for item in site.data.news limit: 5 %}
+      <li><time datetime="{{ item.date | date: '%Y-%m' }}">{{ item.date | date: "%b %Y" }}</time><div><b>{{ item.title }}</b><span>{{ item.body | truncate: 160 }}</span></div></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="apply reveal" style="display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:center">
+      <div>
+        <p class="eyebrow" style="color:var(--band-muted)">Join us</p>
+        <h2 style="margin-bottom:.5rem">We are hiring a postdoctoral fellow</h2>
+        <p style="color:var(--band-muted);margin:0;max-width:60ch">Computational biologists, statisticians, engineers, and physician-scientists who want to work on the earliest signals of cancer: we would love to hear from you.</p>
+      </div>
+      <a class="btn" href="{{ '/join/' | relative_url }}">Open positions →</a>
+    </div>
+  </div>
+</section>

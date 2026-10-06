@@ -1,0 +1,90 @@
+---
+layout: default
+title: People
+slug: people
+permalink: /people/
+description: Members of the Esfahani Lab at Stanford — principal investigator, postdoctoral scholars, students, staff, and alumni.
+---
+<div class="wrap page-head">
+  <p class="eyebrow">People</p>
+  <h1>Computer scientists, statisticians, and biologists, side by side</h1>
+  <p class="lede">We are an interdisciplinary group in Stanford's Department of Radiation Oncology. Innovation in cancer detection happens at the boundaries between fields, so we hire across them.</p>
+</div>
+
+<section style="padding-top:0">
+  <div class="wrap">
+    {% for p in site.data.people %}{% if p.group == "pi" %}
+    <div class="card pi-card reveal">
+      <img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="Portrait of {{ p.name }}" width="600" height="600">
+      <div>
+        <span class="role">{{ p.role }}</span>
+        <h2>{{ p.name }}</h2>
+        <p class="title">{{ p.title }}</p>
+        <p>{{ p.bio }}</p>
+        <div class="links">
+          <a class="btn" href="mailto:{{ p.email }}">{{ p.email }}</a>
+          {% for l in p.links %}<a class="btn" href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }} ↗</a>{% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endif %}{% endfor %}
+
+    {% assign postdocs = site.data.people | where: "group", "postdoc" %}
+    <div class="group-head"><h2>Postdoctoral scholars</h2><span class="count">{{ postdocs | size }}</span></div>
+    <div class="people-grid">
+      {% for p in postdocs %}
+      <article class="card person reveal">
+        <img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="Portrait of {{ p.name }}" loading="lazy" width="600" height="600">
+        <div class="person-body">
+          {% if p.since %}<span class="since">Since {{ p.since }}</span>{% endif %}
+          <h3>{{ p.name }}</h3>
+          <span class="role">{{ p.role }}</span>
+          <details><summary>About</summary><p>{{ p.bio }}</p></details>
+          {% if p.email %}<a class="email" href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% assign students = site.data.people | where: "group", "student" %}
+    <div class="group-head"><h2>Students &amp; research assistants</h2><span class="count">{{ students | size }}</span></div>
+    <div class="people-grid">
+      {% for p in students %}
+      <article class="card person reveal">
+        <img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="Portrait of {{ p.name }}" loading="lazy" width="600" height="600">
+        <div class="person-body">
+          {% if p.since %}<span class="since">Since {{ p.since }}</span>{% endif %}
+          <h3>{{ p.name }}</h3>
+          <span class="role">{{ p.role }}</span>
+          <details><summary>About</summary><p>{{ p.bio }}</p></details>
+          {% if p.email %}<a class="email" href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% assign staff = site.data.people | where: "group", "staff" %}
+    <div class="group-head"><h2>Staff</h2><span class="count">{{ staff | size }}</span></div>
+    <div class="people-grid">
+      {% for p in staff %}
+      <article class="card person reveal">
+        <img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="Portrait of {{ p.name }}" loading="lazy" width="600" height="600">
+        <div class="person-body">
+          <h3>{{ p.name }}</h3>
+          <span class="role">{{ p.role }}</span>
+          <details><summary>About</summary><p>{{ p.bio }}</p></details>
+          {% if p.email %}<a class="email" href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
+        </div>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% assign alumni = site.data.people | where: "group", "alumni" %}
+    <div class="group-head"><h2>Alumni</h2><span class="count">{{ alumni | size }}</span></div>
+    <ul class="alumni reveal">
+      {% for p in alumni %}
+      <li><img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="" loading="lazy" width="56" height="56"><div><b>{{ p.name }}</b><span>{{ p.role }} · {{ p.tenure }}</span></div></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

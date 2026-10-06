@@ -1,0 +1,31 @@
+# ── Tools & resources ──────────────────────────────────────────────────────────
+- name: EPIC-Seq
+  url: https://epicseq.stanford.edu/
+  blurb: Infers tumor gene expression from the fragmentation patterns of cell-free DNA at gene promoters.
+  paper: Inferring gene expression from cell-free DNA fragmentation profiles
+  venue: Nature Biotechnology, 2022
+  doi: https://doi.org/10.1038/s41587-022-01222-4
+- name: Hodgkin Lymphoma Clusterer
+  url: https://hodgkin.stanford.edu/
+  blurb: Assigns classic Hodgkin lymphoma cases to the H1 and H2 genomic subtypes from noninvasive profiling.
+  paper: Distinct Hodgkin lymphoma subtypes defined by noninvasive genomic profiling
+  venue: Nature, 2024
+  doi: https://doi.org/10.1038/s41586-023-06903-x
+- name: DIREct
+  url: https://direct.stanford.edu/
+  blurb: Early, noninvasive identification of patients who benefit from immune checkpoint inhibition.
+  paper: Noninvasive early identification of therapeutic benefit from immune checkpoint inhibition
+  venue: Cell, 2020
+  doi: https://doi.org/10.1016/j.cell.2020.09.001
+- name: CIRI
+  url: https://ciri.stanford.edu/
+  blurb: Continuous Individualized Risk Index — dynamic outcome prediction from serial tumor biomarkers.
+  paper: Dynamic risk profiling using serial tumor biomarkers for personalized outcome prediction
+  venue: Cell, 2019
+  doi: https://doi.org/10.1016/j.cell.2019.06.011
+- name: CLiP
+  url: https://clip.stanford.edu/
+  blurb: Lung Cancer Likelihood in Plasma — integrates genomic features for early lung cancer detection.
+  paper: Integrating genomic features for non-invasive early lung cancer detection
+  venue: Nature, 2020
+  doi: https://doi.org/10.1038/s41586-020-2140-0

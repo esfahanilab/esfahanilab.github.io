@@ -1,0 +1,87 @@
+# ── News ───────────────────────────────────────────────────────────────────────
+# Newest first. `date` is YYYY-MM-DD (day can be 01 if unknown).
+# Optional: photos: [{file: name.jpg, caption: "..."}] with files in assets/img/news/
+
+- date: 2026-02-01
+  title: Mark Robinson joins the lab
+  body: Welcome to Mark Robinson, a Statistics master's student who is working on statistical guarantees for fragmentomic signals from liquid biopsies.
+
+- date: 2026-01-01
+  title: Asim Kalco starts a rotation
+  body: We are glad to welcome Asim Kalco, a first-year Biomedical Physics PhD student, as a rotation student.
+
+- date: 2025-12-01
+  title: The lab at ASH 2025
+  body: >-
+    Amirsaman and Seraphina presented their work at the 67th ASH Annual Meeting.
+    Amirsaman's poster described noninvasive risk stratification of mantle cell
+    lymphoma by inferring tumor proliferation from cell-free DNA, and Seraphina's
+    poster identified distinct morphological features of malignant cells in
+    large B-cell lymphoma by soft segmentation of imaging-based spatial
+    proteomics. Both posters were recognized with ASH Abstract Achievement Awards.
+  photos:
+    - { file: IMG_0955.jpg, caption: Amirsaman Ashtari with his poster at ASH 2025. }
+    - { file: IMG_1103.jpg, caption: Seraphina Shi with her poster at ASH 2025. }
+    - { file: image003.jpg, caption: Shahrokh presenting at the 67th ASH Annual Meeting. }
+    - { file: IMG_1104.jpg, caption: Seraphina and Amirsaman at ASH 2025 in Orlando. }
+
+- date: 2025-09-01
+  title: Welcome Emma Sampietro and Chloe Jeon
+  body: Two new master's students join the lab this fall. Emma works on neural networks for cell-free DNA analysis and Chloe on machine learning for healthcare.
+
+- date: 2025-07-01
+  title: SIMR summer wraps up with a poster session and an award
+  body: >-
+    Matthew and Ananya completed the Stanford Institutes of Medicine Summer
+    Research (SIMR) program with poster presentations. Ananya received the
+    Jessica Saal Award for her project on hierarchical deep-learning-based lung
+    carcinoma detection and tumor fraction estimation from circulating cell-free DNA.
+  photos:
+    - { file: image009.jpg, caption: Ananya presenting her SIMR poster. }
+    - { file: image007.jpg, caption: Ananya receiving the Jessica Saal Award. }
+    - { file: image008.jpg, caption: Matthew at the SIMR closing ceremony. }
+    - { file: IMG_1106.jpg, caption: The 2025 SIMR cohort. }
+
+- date: 2025-04-01
+  title: Four abstracts at AACR 2025
+  body: Amirsaman and Brian attended the AACR Annual Meeting 2025 in Chicago, presenting alongside lab collaborator Diego Almanza.
+  links:
+    - { label: "Dissecting tumor gene expression from cfDNA EPIC-Seq profiles (Ashtari)", url: "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/2384/754834" }
+    - { label: "An AI framework for genome-wide genotyping using targeted sequencing data (Ashtari)", url: "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/1116/759397" }
+    - { label: "A mathematical model for cfDNA fragmentation (Liu)", url: "https://aacrjournals.org/cancerres/article/85/8_Supplement_1/6243/760965" }
+
+- date: 2025-03-01
+  title: Farewell to Nourya and Isabel
+  body: Nourya Cohen and Isabel Michel completed their time in the lab. Thank you both, and good luck!
+
+- date: 2025-02-01
+  title: Seraphina Shi joins as a postdoctoral scholar
+  body: We welcome Junming (Seraphina) Shi as our newest postdoctoral scholar, co-mentored with Md Tauhidul Islam.
+
+- date: 2025-01-01
+  title: Isabel Michel joins the lab
+  body: Welcome to Isabel Michel, a Computer Science master's student specializing in AI.
+
+- date: 2024-10-01
+  title: New faces this fall
+  body: Pulkit and Meenal wrapped up their projects. We welcome new research assistants Nourya Cohen and Brian Liu (returning), and our first bioinformatician, Mengran Zhang.
+
+- date: 2024-09-01
+  title: Our first postdoc
+  body: Amirsaman Ashtari joins us from ETH Zürich as the lab's first postdoctoral scholar.
+
+- date: 2024-08-01
+  title: Leslie receives the IDHE Research Fellowship
+  body: Congratulations to Leslie Espinoza Campomanes on receiving the IDHE Research Fellowship.
+
+- date: 2024-07-01
+  title: Welcome Leslie and Meenal
+  body: Leslie Espinoza Campomanes and Meenal Gupta join the lab as research assistants.
+
+- date: 2024-04-01
+  title: The first lab members arrive
+  body: Welcome Eden Luvishis, Pulkit Goel, and Brian Liu, the founding members of the Esfahani Lab.
+
+- date: 2024-03-01
+  title: The Esfahani Lab opens
+  body: The lab officially starts in the Department of Radiation Oncology at Stanford, in the Stanford Research Park on Porter Drive.

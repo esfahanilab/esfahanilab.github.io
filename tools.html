@@ -1,0 +1,34 @@
+---
+layout: default
+title: Tools
+slug: tools
+permalink: /tools/
+description: Web tools and resources from the Esfahani Lab and collaborators — EPIC-Seq, the Hodgkin lymphoma clusterer, DIREct, CIRI, and CLiP.
+---
+<div class="wrap page-head">
+  <p class="eyebrow">Tools</p>
+  <h1>Methods you can use</h1>
+  <p class="lede">Web tools and models that accompany our publications. Each is hosted at Stanford and linked to the paper that describes it.</p>
+</div>
+<section style="padding-top:0">
+  <div class="wrap grid grid-3">
+    {% for tool in site.data.tools %}
+    <article class="card tool reveal">
+      <span class="pill">{{ tool.venue }}</span>
+      <h3 style="margin-bottom:.2rem">{{ tool.name }}</h3>
+      <span class="url">{{ tool.url | replace: "https://", "" | replace: "/", "" }}</span>
+      <p class="muted" style="margin:.4rem 0 0">{{ tool.blurb }}</p>
+      <p class="paper"><i>Paper:</i> <a href="{{ tool.doi }}" target="_blank" rel="noopener">{{ tool.paper }}</a></p>
+      <a class="cta" href="{{ tool.url }}" target="_blank" rel="noopener">Open {{ tool.name }} ↗</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="card reveal" style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:space-between">
+      <div><h3 style="margin:0 0 .3rem">Code</h3><p class="muted" style="margin:0">Software from current projects is released alongside each paper on the lab's GitHub organization.</p></div>
+      <a class="btn" href="{{ site.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </div>
+</section>
