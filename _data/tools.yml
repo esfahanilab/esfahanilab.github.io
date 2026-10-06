@@ -128,3 +128,21 @@
     - h: Conclusions
       p: >-
         We show that integrating cell-type-specific nucleosome patterns improves cfDNA fragmentation models. Further improvements can be made given nucleosome organization information from additional cell types. We envision that this model-based approach will enhance tissue-of-origin classification and cancer detection.
+
+- name: J-TRACE
+  status: development
+  tag: Immune repertoire · Clonality
+  blurb: Recovers B- and T-cell receptor clonality from Heme-STAMP comprehensive genomic profiling, using IGH and TCR J-segment coverage together with off-target and unmapped reads, so that dedicated V(D)J assays are not required.
+  paper: Accurate T- & B-cell clonality inference from comprehensive genomic profiling by targeted sequencing
+  authors: Ashtari A, Shukla N, Osswald L, Sugio T, Alig SK, Schroers-Martin J, Alizadeh AA, Stehr H*, Shahrokh Esfahani M*
+  venue: ASH Annual Meeting 2026, accepted for poster presentation
+  abstract:
+    - h: Background
+      p: >-
+        Immune-receptor clonality testing is often used for diagnosis and monitoring of lymphoid malignancies but generally requires dedicated V(D)J assays to interrogate B- and T-cell receptor (BCR/TCR) recombinations. We developed J-TRACE to recover clonality information from Heme-STAMP, Stanford's institutional comprehensive tumor-genotyping panel for hematolymphoid malignancies, by exploiting its IGH and TCR J-segment coverage together with off-target/unmapped reads, and now share this resource.
+    - h: Methods
+      p: >-
+        We analyzed 1,328 tissue specimens from 977 Heme-STAMP profiled patients at ~2,000× median depth. T-cell lymphomas, DLBCL, FL, and myeloma comprised the most prevalent lymphoid tumor types, accounting for ~30% of cases. Of these 1,328 cases, 942 (71%) had clonal status available by an orthogonal assay (Invivoscribe LymphoTrack) for training/validation, with the remaining 386 (29%) used for additional validation by malignancy type. We developed J-TRACE to retrieve reads overlapping J segments, their mates, unmapped reads, and off-target reads at V loci, and to refine mappings to 1,169 IMGT V- and J-region alleles by BLAST, assembling fixed VJ-pairings with per-chain V×J fragment-count matrices for TRB/G and IGH/K. These count matrices were further summarized into 76 to 392 features to train probabilistic BCR/TCR clonality models through an ensemble machine learning framework. The performance of J-TRACE was then evaluated by cross-validation. As a comparison, MiXCR was benchmarked on identical reads from 400 balanced specimens.
+    - h: Results
+      p: >-
+        For TCR clonality analysis (TRB/G), we studied 842 specimens (337 nonclonal, 128 oligoclonal, 377 clonal), and for BCR clonality analysis (IGH/K), we studied 358 specimens (213 nonclonal, 4 oligoclonal, 141 clonal). Among specimens with TRB scores, maximum clone abundance increased monotonically from 7.8% in nonclonal to 15% in oligoclonal and 26.8% in clonal specimens (Kruskal-Wallis P << 0.001), supporting oligoclonality as an intermediate state; similar trends were seen for BCR clonality. Among the features used by J-TRACE, maximal V×J clone fraction for TRB and V×J Gini for TRG, IGH, and IGK showed the strongest discriminatory power for clonality, with corresponding AUCs of 0.801, 0.736, 0.607, and 0.683. Performance increased with junctional depth. J-TRACE-TCR achieved an AUC of approximately 0.86 while the J-TRACE-BCR model achieved an AUC of 0.76. Notably, the J-TRACE-TCR model gained 0.03 in AUC over the TRB maximal clone fraction, and achieved 68% sensitivity at 90% specificity. Gains were greatest in bone marrow and FFPE specimens, whereas high-depth peripheral-blood specimens derived little incremental benefit. Against MiXCR on identical reads, repertoire burden correlated strongly (Spearman ρ = 0.74; P < 0.001).

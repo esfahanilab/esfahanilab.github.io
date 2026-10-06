@@ -38,11 +38,11 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
         <span class="pill accent">{{ tool.tag }}</span>
         <h3 style="margin-bottom:.2rem">{{ tool.name }}</h3>
         <p class="muted" style="margin:.4rem 0 0">{{ tool.blurb }}</p>
-        <p class="paper"><a href="{{ tool.url }}" target="_blank" rel="noopener">{{ tool.paper }}</a><br><span class="authors">{{ tool.authors }}</span><br><i>{{ tool.venue }}</i></p>
+        <p class="paper">{% if tool.url %}<a href="{{ tool.url }}" target="_blank" rel="noopener">{{ tool.paper }}</a>{% else %}{{ tool.paper }}{% endif %}<br><span class="authors">{{ tool.authors }}</span><br><i>{{ tool.venue }}</i></p>
         <details class="abstract">
           <summary>Read the abstract</summary>
           {% for sec in tool.abstract %}<p><b>{{ sec.h }}.</b> {{ sec.p }}</p>{% endfor %}
-          <p class="muted" style="font-size:.85rem"><a href="{{ tool.doi }}" target="_blank" rel="noopener">{{ tool.doi | replace: "https://doi.org/", "doi:" }}</a></p>
+          {% if tool.doi %}<p class="muted" style="font-size:.85rem"><a href="{{ tool.doi }}" target="_blank" rel="noopener">{{ tool.doi | replace: "https://doi.org/", "doi:" }}</a></p>{% endif %}
         </details>
       </article>
       {% endfor %}
