@@ -28,6 +28,7 @@ nav:
   - { title: Publications,  url: /publications/ }
   - { title: Tools,         url: /tools/ }
   - { title: News,          url: /news/ }
+  - { title: Collaborate,   url: /collaborate/ }
   - { title: Join Us,       url: /join/ }
 
 markdown: kramdown

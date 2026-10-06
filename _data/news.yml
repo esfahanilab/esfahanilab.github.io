@@ -2,6 +2,27 @@
 # Newest first. `date` is YYYY-MM-DD (day can be 01 if unknown).
 # Optional: photos: [{file: name.jpg, caption: "..."}] with files in assets/img/news/
 
+- date: 2026-10-05
+  title: Alexander Köpp joins the lab
+  body: We are delighted to welcome Alexander Köpp as a postdoctoral scholar.
+
+- date: 2026-10-01
+  title: Amirsaman heads to ASH 2026, with a Bio-X poster award in hand
+  body: >-
+    Amirsaman's abstract has been accepted for a poster presentation at the
+    ASH Annual Meeting in December. He also received one of the poster awards at
+    this year's Stanford Bio-X Symposium. Congratulations, Amirsaman!
+
+- date: 2026-08-01
+  title: Kopal Tare wins the SIMR best research award
+  body: >-
+    Kopal Tare, a Stanford Institutes of Medicine Summer Research (SIMR) student
+    hosted by our lab, received the program's best research award for her
+    summer project. That makes two years in a row for the lab, after Ananya
+    received the award in 2025.
+  photos:
+    - { file: lab_sketch_2026.jpg, caption: "The lab in summer 2026, in a pencil sketch by Alinah." }
+
 - date: 2026-02-01
   title: Mark Robinson joins the lab
   body: Welcome to Mark Robinson, a Statistics master's student who is working on statistical guarantees for fragmentomic signals from liquid biopsies.

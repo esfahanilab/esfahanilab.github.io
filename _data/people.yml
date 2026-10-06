@@ -44,6 +44,15 @@
     imaging-based spatial proteomics of lymphoma, to understand how malignant
     cells and their neighbors organize in tissue.
 
+- name: Alexander Köpp
+  group: postdoc
+  role: Postdoctoral Scholar
+  since: Oct 2026
+  photo: placeholder.svg
+  email: akoepp@stanford.edu
+  bio: >-
+    Alexander joined the lab as a postdoctoral scholar in fall 2026.
+
 - name: Mengran Zhang, MS
   group: staff
   role: Bioinformatician
@@ -131,6 +140,13 @@
     of Radiation Oncology.
 
 # ── Alumni ─────────────────────────────────────────────────────────────────────
+- name: Kopal Tare
+  group: alumni
+  role: SIMR Summer Intern
+  tenure: Summer 2026
+  photo: placeholder.svg
+  bio: Received the SIMR program's best research award for her summer project in the lab.
+
 - name: Eden Luvishis
   group: alumni
   role: Master's Student, ICME
