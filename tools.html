@@ -7,12 +7,12 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
 ---
 <div class="wrap page-head">
   <p class="eyebrow">Tools</p>
-  <h1>Methods you can use</h1>
-  <p class="lede">Web tools and models that accompany our publications. Each is hosted at Stanford and linked to the paper that describes it.</p>
+  <h1>Methods</h1>
+  <p class="lede">Techniques, assays, and computational methods developed by the lab and its principal investigator, with the publications that describe them.</p>
 </div>
 <section style="padding-top:0">
   <div class="wrap">
-    <div class="section-head reveal" style="margin-bottom:1.5rem"><div><p class="eyebrow">Released</p><h2>Web tools</h2></div></div>
+    <div class="section-head reveal" style="margin-bottom:1.5rem"><div><p class="eyebrow">Published</p><h2>Methods and assays</h2></div></div>
   </div>
   <div class="wrap grid grid-3">
     {% assign released = site.data.tools | where: "status", "released" %}
@@ -23,14 +23,14 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
       <span class="url">{{ tool.url | replace: "https://", "" | replace: "/", "" }}</span>
       <p class="muted" style="margin:.4rem 0 0">{{ tool.blurb }}</p>
       <p class="paper"><i>Paper:</i> <a href="{{ tool.doi }}" target="_blank" rel="noopener">{{ tool.paper }}</a></p>
-      <a class="cta" href="{{ tool.url }}" target="_blank" rel="noopener">Open {{ tool.name }} ↗</a>
+      <a class="cta" href="{{ tool.url }}" target="_blank" rel="noopener">{{ tool.name }} website ↗</a>
     </article>
     {% endfor %}
   </div>
 </section>
 <section style="background:var(--bg-2);border-block:1px solid var(--line)">
   <div class="wrap">
-    <div class="section-head reveal"><div><p class="eyebrow">In development</p><h2>Methods on their way</h2></div><span class="muted">Presented as conference abstracts; software to follow with the papers.</span></div>
+    <div class="section-head reveal"><div><p class="eyebrow">In development</p><h2>Methods in development</h2></div><span class="muted">Presented as conference abstracts.</span></div>
     <div class="grid grid-2" style="align-items:start">
       {% assign dev = site.data.tools | where: "status", "development" %}
       {% for tool in dev %}
@@ -53,7 +53,7 @@ description: Web tools and resources from the Esfahani Lab and collaborators —
 <section>
   <div class="wrap">
     <div class="card reveal" style="display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;justify-content:space-between">
-      <div><h3 style="margin:0 0 .3rem">Code</h3><p class="muted" style="margin:0">Software from current projects is released alongside each paper on the lab's GitHub organization.</p></div>
+      <div><h3 style="margin:0 0 .3rem">Code</h3><p class="muted" style="margin:0">Software accompanying our publications is released on the lab's GitHub.</p></div>
       <a class="btn" href="{{ site.github }}" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
   </div>

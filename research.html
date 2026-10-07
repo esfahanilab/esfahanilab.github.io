@@ -95,7 +95,7 @@ description: Research themes of the Esfahani Lab — cell-free DNA fragmentomics
 
 <section style="background:var(--bg-2);border-top:1px solid var(--line)">
   <div class="wrap">
-    <div class="section-head reveal"><div><p class="eyebrow">Tools</p><h2>Methods we have released</h2></div><a class="more" href="{{ '/tools/' | relative_url }}">All tools →</a></div>
+    <div class="section-head reveal"><div><p class="eyebrow">Methods</p><h2>Methods and assays</h2></div><a class="more" href="{{ '/tools/' | relative_url }}">All methods →</a></div>
     <div class="grid grid-3">
       {% assign released = site.data.tools | where: "status", "released" %}{% for tool in released limit: 3 %}
       <a class="card reveal" href="{{ tool.url }}" target="_blank" rel="noopener"><span class="pill">{{ tool.venue }}</span><h3>{{ tool.name }}</h3><p class="muted">{{ tool.blurb }}</p></a>
