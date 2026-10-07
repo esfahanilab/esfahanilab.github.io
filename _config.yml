@@ -18,6 +18,9 @@ scholar: https://scholar.google.com/citations?user=3LpGRA8AAAAJ&hl=en
 stanford_profile: https://profiles.stanford.edu/mohammad-shahrokh-esfahani
 github: https://github.com/esfahanilab
 
+# Google Analytics 4 measurement ID (leave empty to disable)
+google_analytics: G-5F7YJREH0F
+
 address:
   - 3145 Porter Drive, Wing A
   - Palo Alto, CA 94304
