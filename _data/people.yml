@@ -44,25 +44,20 @@
     imaging-based spatial proteomics of lymphoma, to understand how malignant
     cells and their neighbors organize in tissue.
 
-- name: Alexander Köpp
+- name: Alexander Köpp, MD
   group: postdoc
   role: Postdoctoral Scholar
   since: Oct 2026
-  photo: placeholder.svg
+  photo: koepp.jpg
   email: akoepp@stanford.edu
   bio: >-
-    Alexander joined the lab as a postdoctoral scholar in fall 2026.
-
-- name: Ananya Pradhan
-  group: student
-  role: High School Intern
-  since: Aug 2025
-  photo: pradhan.jpg
-  bio: >-
-    Ananya is a student at The Harker School planning to major in Computer
-    Science. Her research sits at the intersection of deep learning,
-    computational analysis, and high-dimensional biological data. She received
-    the Jessica Saal Award for her SIMR project in 2025.
+    Alex is a postdoctoral fellow at Stanford and a physician-scientist in the
+    Department of Neurology at the University Hospital Zurich. He was
+    previously a postdoctoral researcher at ETH Zurich, supported by an ETH
+    MedLab Fellowship. His research focuses on liquid biopsies and
+    immunotherapies for brain cancer, particularly glioblastoma, and aims to
+    leverage high-dimensional molecular and clinical data to improve diagnosis
+    and care for patients.
 
 - name: Michelle Ly
   group: staff
