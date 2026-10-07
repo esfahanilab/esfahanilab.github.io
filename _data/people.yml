@@ -53,72 +53,6 @@
   bio: >-
     Alexander joined the lab as a postdoctoral scholar in fall 2026.
 
-- name: Mengran Zhang, MS
-  group: staff
-  role: Bioinformatician
-  photo: zhang.jpg
-  email: mzhang13@stanford.edu
-  bio: >-
-    Mengran holds a master's degree in Statistics from Yale University and
-    previously worked as a statistician and computational biologist at the
-    Dana-Farber Cancer Institute. She builds and maintains the lab's analysis
-    pipelines across cohorts.
-
-- name: Brian Liu
-  group: student
-  role: Research Assistant
-  since: Sept 2025
-  photo: liu.jpg
-  email: briansliu@stanford.edu
-  bio: >-
-    Brian is a graduate of Stanford's Institute for Computational and
-    Mathematical Engineering. He applies statistical optimization to problems in
-    computational genomics, including mathematical models of cell-free DNA
-    fragmentation.
-
-- name: Chloe Jeon
-  group: student
-  role: Master's Student, Computer Science
-  since: Sept 2025
-  photo: jeon.jpg
-  email: chloe_jeon@stanford.edu
-  bio: >-
-    Chloe is a Computer Science master's student specializing in AI. She works
-    at the intersection of biology, medicine, and machine learning, using
-    neural networks to address problems in healthcare.
-
-- name: Emma Sampietro
-  group: student
-  role: Master's Student, Computational & Mathematical Engineering
-  since: Sept 2025
-  photo: sampietro.jpg
-  email: esampi@stanford.edu
-  bio: >-
-    Emma is jointly mentored by Ash Alizadeh and Mohammad Shahrokh Esfahani. She
-    develops neural networks for cell-free DNA analysis and noninvasive cancer
-    detection.
-
-- name: Asim Kalco
-  group: student
-  role: Rotation Student, Biomedical Physics PhD
-  since: Jan 2026
-  photo: kalco.jpg
-  email: akalco@stanford.edu
-  bio: >-
-    Asim is a first-year Biomedical Physics PhD student interested in using
-    circulating cell-free DNA to track aging-related signals and in the
-    information-theoretic limits of fragmentomics.
-
-- name: Mark Robinson
-  group: student
-  role: Master's Student, Statistics
-  since: Feb 2026
-  photo: robinson.jpg
-  bio: >-
-    Mark is a Statistics master's student with a background in econometrics.
-    He works on statistical guarantees for the use of fragmentomic signals from
-    liquid biopsies.
-
 - name: Ananya Pradhan
   group: student
   role: High School Intern
@@ -140,6 +74,68 @@
     of Radiation Oncology.
 
 # ── Alumni ─────────────────────────────────────────────────────────────────────
+- name: Mengran Zhang, MS
+  group: alumni
+  role: Bioinformatician
+  tenure: 2024 – 2026
+  photo: zhang.jpg
+  bio: >-
+    Mengran holds a master's degree in Statistics from Yale University and
+    previously worked as a statistician and computational biologist at the
+    Dana-Farber Cancer Institute. She builds and maintains the lab's analysis
+    pipelines across cohorts.
+
+- name: Brian Liu
+  group: alumni
+  role: Research Assistant
+  tenure: Sept 2025 – 2026
+  photo: liu.jpg
+  bio: >-
+    Brian is a graduate of Stanford's Institute for Computational and
+    Mathematical Engineering. He applies statistical optimization to problems in
+    computational genomics, including mathematical models of cell-free DNA
+    fragmentation.
+
+- name: Chloe Jeon
+  group: alumni
+  role: Master's Student, Computer Science
+  tenure: Sept 2025 – 2026
+  photo: jeon.jpg
+  bio: >-
+    Chloe is a Computer Science master's student specializing in AI. She works
+    at the intersection of biology, medicine, and machine learning, using
+    neural networks to address problems in healthcare.
+
+- name: Emma Sampietro
+  group: alumni
+  role: Master's Student, Computational & Mathematical Engineering
+  tenure: Sept 2025 – 2026
+  photo: sampietro.jpg
+  bio: >-
+    Emma is jointly mentored by Ash Alizadeh and Mohammad Shahrokh Esfahani. She
+    develops neural networks for cell-free DNA analysis and noninvasive cancer
+    detection.
+
+- name: Asim Kalco
+  group: alumni
+  role: Rotation Student, Biomedical Physics PhD
+  tenure: Jan 2026 – 2026
+  photo: kalco.jpg
+  bio: >-
+    Asim is a first-year Biomedical Physics PhD student interested in using
+    circulating cell-free DNA to track aging-related signals and in the
+    information-theoretic limits of fragmentomics.
+
+- name: Mark Robinson
+  group: alumni
+  role: Master's Student, Statistics
+  tenure: Feb 2026 – 2026
+  photo: robinson.jpg
+  bio: >-
+    Mark is a Statistics master's student with a background in econometrics.
+    He works on statistical guarantees for the use of fragmentomic signals from
+    liquid biopsies.
+
 - name: Kopal Tare
   group: alumni
   role: SIMR Summer Intern
