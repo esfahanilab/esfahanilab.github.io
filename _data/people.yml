@@ -1,7 +1,8 @@
 # ── People ─────────────────────────────────────────────────────────────────────
 # To add someone: copy a block, drop a 600×600 photo in assets/img/people/,
 # and set `photo` to the file name. Groups: pi, postdoc, student, staff, alumni.
-# Members are shown in the order listed. Alumni are grouped separately.
+# Members are shown in the order listed. Alumni are grouped separately;
+# an optional `now:` line records where an alumnus went next.
 
 - name: Mohammad Shahrokh Esfahani, PhD
   group: pi
@@ -172,6 +173,7 @@
   group: alumni
   role: Master's Student, ICME
   tenure: Apr 2024 – Jul 2025
+  now: Quantitative Researcher at McKay Brothers / Quincy Data
   photo: luvishis.jpg
   bio: Applied optimization and machine learning to large-scale genomic datasets.
 
@@ -186,6 +188,7 @@
   group: alumni
   role: High School Intern
   tenure: Aug – Dec 2025
+  now: Undergraduate at Stanford University
   photo: sun.jpg
   bio: Worked on GPU-accelerated analysis of cell-free DNA for early cancer detection.
 

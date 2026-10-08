@@ -83,7 +83,7 @@ description: Members of the Esfahani Lab at Stanford — principal investigator,
     <div class="group-head"><h2>Alumni</h2><span class="count">{{ alumni | size }}</span></div>
     <ul class="alumni reveal">
       {% for p in alumni %}
-      <li><img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="" loading="lazy" width="56" height="56"><div><b>{{ p.name }}</b><span>{{ p.role }} · {{ p.tenure }}{% if p.link %} · <a href="{{ p.link }}" target="_blank" rel="noopener">more ↗</a>{% endif %}</span></div></li>
+      <li><img src="{{ '/assets/img/people/' | append: p.photo | relative_url }}" alt="" loading="lazy" width="56" height="56"><div><b>{{ p.name }}</b><span>{{ p.role }} · {{ p.tenure }}{% if p.link %} · <a href="{{ p.link }}" target="_blank" rel="noopener">more ↗</a>{% endif %}</span>{% if p.now %}<span class="now">Now: {{ p.now }}</span>{% endif %}</div></li>
       {% endfor %}
     </ul>
   </div>

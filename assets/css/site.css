@@ -333,3 +333,5 @@ a.card { text-decoration: none; display: block; }
 .tool .abstract[open] summary::after { content: " –"; }
 .tool .abstract p { font-size: .92rem; color: var(--ink-2); margin: .7rem 0 0; }
 .tool .abstract p b { color: var(--ink); }
+
+.alumni .now { display: block; color: var(--signal); font-size: .84rem; margin-top: .1rem; }
